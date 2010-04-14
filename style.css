@@ -1,0 +1,190 @@
+@CHARSET "UTF-8";
+#novaContent {
+	background: url("images/backgroundMain.png") no-repeat;
+	padding-top: 210px;
+}
+
+#midcolumn {
+	width: 640px;
+	padding: 0 10px 10px 10px;
+}
+
+#rightcolumn {
+	width: 260px;
+}
+
+
+h3 {
+	clear: both;
+}
+
+h7 {
+	font-weight: bold;
+	padding: 5px;
+}
+
+a strong {
+	text-decoration: underline;
+}
+
+
+#novaContent {
+	background: url("images/backgroundMain.png") no-repeat white;
+	padding-top: 170px;
+}
+
+#introText p.left {
+	width: 48%;
+	float: left;
+}
+
+#introText p.right {
+	width: 48%;
+	float: right;
+}
+
+#feature_1 {
+	float: left;
+	width: 30%;
+	margin-right: 3%;
+}
+
+#feature_2 {
+	float: left;
+	width: 30%;
+	margin-right: 3%
+}
+
+#feature_3 {
+	float: left;
+	width: 30%;
+}
+
+#feature_4 {
+	clear: both;
+	float: left;
+	width: 63%;
+	margin-right: 3%;	
+}
+
+#feature_more {
+	float: left;
+	width: 30%;
+}
+	
+#bigbuttons {
+	position: relative;
+	left: 420px;
+	top: -170px;
+}
+#bigbuttons h3{
+	visibility: hidden;
+}
+
+#bigbuttons a {
+}
+
+#bigbuttons ul li {
+   display:block;
+   list-style-type:none;
+   background-color: red;
+   padding: 0;
+   margin: 0;
+}
+
+#bigbuttons a:hover {
+	text-decoration: none;
+}
+
+#bigbuttons a {
+   display: block;
+   height:77px; width:250px;
+   padding: 0;
+   margin: 20px;
+   text-indent: -9000px;
+   position: absolute;
+}
+
+#buttonDownload {
+   background:transparent url("images/buttonDownload.png") no-repeat 0 0;
+   top: 0px;
+   left: 0px;
+}
+
+#buttonDownload:hover {
+   background:transparent url("images/buttonDownload_sel.png") no-repeat 0 0;
+}
+
+   
+#buttonDocumentation {
+   background:transparent url("images/buttonDocumentation.png") no-repeat 0 0;
+   top: 87px;
+   left: 0px;
+}
+
+#buttonDocumentation:hover {
+   background:transparent url("images/buttonDocumentation_sel.png") no-repeat 0 0;
+}
+
+#buttonSupport {
+   background:transparent url("images/buttonSupport.png") no-repeat 0 0;
+   top: 0px;
+   left: 280px;
+}
+
+#buttonSupport:hover {
+   background:transparent url("images/buttonSupport_sel.png") no-repeat 0 0;
+}
+
+#buttonInvolved {
+   background:transparent url("images/buttonInvolved.png") no-repeat 0 0;
+   top: 87px;
+   left: 280px;
+}
+
+#buttonInvolved:hover {
+   background:transparent url("images/buttonInvolved_sel.png") no-repeat 0 0;
+}
+
+#bigbuttons a * {
+	visibility: hidden;
+}
+
+#headlines {
+}
+
+#headlines ul li {
+	margin: 0 0;
+	list-style-type: none;
+	list-style-image: none;
+}
+
+	
+#headlines div.title {
+	display: inline;
+	margin-right: 0.5em;
+}
+
+#headlines div.meta {
+	display: inline;
+	color: #444444;
+	font-size: smaller;  
+}
+
+#headlines div.item {
+	display: block;
+	}
+	
+#screencast {
+	margin-bottom: 10px;
+}
+
+#newAndNoteworthy a {
+   display: block;
+   width:218px; 
+   height:51px;
+   padding: 0;
+   text-indent: -9000px;
+   background:transparent url("images/bannerNewAndNoteworthy08M4.png") no-repeat 0 0;
+   margin-top: 10px;
+}
