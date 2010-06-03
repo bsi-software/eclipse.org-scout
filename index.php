@@ -7,20 +7,20 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  * Contributors:
- *    
+ *
  *******************************************************************************/
 
 	require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/app.class.php");	require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/nav.class.php"); 	require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/menu.class.php"); 	$App 	= new App();	$Nav	= new Nav();	$Menu 	= new Menu();		include($App->getProjectCommon());
 	$App->AddExtraHtmlHeader('<link rel="stylesheet" type="text/css" href="/default/style.css"/>');
-	
+
 	$localVersion = false;
-	
+
 	# Define these here, or in _projectCommon.php for site-wide values
-	$pageKeywords	= "eclipse, project";
-	$pageAuthor		= "Your name";
-	$pageTitle 		= "My project home";
-	
-	
+	$pageKeywords	= "eclipse, project, scout, application framework";
+	$pageAuthor		= "Matthias Zimmermann";
+	$pageTitle 		= "Eclipse Scout Project Home";
+
+
 	// 	# Paste your HTML content between the EOHTML markers!
 	$html = file_get_contents('pages/_index.html');
 
