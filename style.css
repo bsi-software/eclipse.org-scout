@@ -1,9 +1,4 @@
 @CHARSET "UTF-8";
-#novaContent {
-	background: url("images/backgroundMain.png") no-repeat;
-	padding-top: 210px;
-}
-
 #midcolumn {
 	width: 640px;
 	padding: 0 10px 10px 10px;
@@ -25,6 +20,11 @@ h7 {
 
 a strong {
 	text-decoration: underline;
+}
+
+#novaContent {
+	background: url("images/backgroundMain.png") no-repeat white;
+	padding-top: 170px;
 }
 
 #introText p.left {
