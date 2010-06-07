@@ -27,11 +27,6 @@ a strong {
 	text-decoration: underline;
 }
 
-#novaContent {
-	background: url("images/backgroundMain.png") no-repeat white;
-	padding-top: 170px;
-}
-
 #introText p.left {
 	width: 48%;
 	float: left;
