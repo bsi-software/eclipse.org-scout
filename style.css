@@ -23,8 +23,8 @@ a strong {
 }
 
 #novaContent {
-	background: url("images/backgroundMain.png") no-repeat white;
-	padding-top: 170px;
+	background: url("images/backgroundMain.png") white;
+	padding-top: 50px;
 }
 
 #introText p.left {
