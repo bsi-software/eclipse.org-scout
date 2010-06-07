@@ -1,6 +1,6 @@
 @CHARSET "UTF-8";
 #novaContent {
-	background: url("images/backgroundMainScout.png") no-repeat;
+	background: url("images/backgroundMain.png") no-repeat;
 	padding-top: 210px;
 }
 
@@ -28,7 +28,7 @@ a strong {
 }
 
 #novaContent {
-	background: url("images/backgroundMainScout.png") no-repeat white;
+	background: url("images/backgroundMain.png") no-repeat white;
 	padding-top: 170px;
 }
 
