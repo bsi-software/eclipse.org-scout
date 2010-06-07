@@ -1,6 +1,6 @@
 @CHARSET "UTF-8";
 #novaContent {
-	background: url("images/backgroundMain.png") no-repeat;
+	background: url("images/backgroundMainScout.png") no-repeat;
 	padding-top: 210px;
 }
 
@@ -27,9 +27,8 @@ a strong {
 	text-decoration: underline;
 }
 
-
 #novaContent {
-	background: url("images/backgroundMain.png") no-repeat white;
+	background: url("images/backgroundMainScout.png") no-repeat white;
 	padding-top: 170px;
 }
 
@@ -64,14 +63,14 @@ a strong {
 	clear: both;
 	float: left;
 	width: 63%;
-	margin-right: 3%;	
+	margin-right: 3%;
 }
 
 #feature_more {
 	float: left;
 	width: 30%;
 }
-	
+
 #bigbuttons {
 	position: relative;
 	left: 420px;
@@ -115,7 +114,7 @@ a strong {
    background:transparent url("images/buttonDownload_sel.png") no-repeat 0 0;
 }
 
-   
+
 #buttonDocumentation {
    background:transparent url("images/buttonDocumentation.png") no-repeat 0 0;
    top: 87px;
@@ -159,7 +158,7 @@ a strong {
 	list-style-image: none;
 }
 
-	
+
 #headlines div.title {
 	display: inline;
 	margin-right: 0.5em;
@@ -168,20 +167,20 @@ a strong {
 #headlines div.meta {
 	display: inline;
 	color: #444444;
-	font-size: smaller;  
+	font-size: smaller;
 }
 
 #headlines div.item {
 	display: block;
 	}
-	
+
 #screencast {
 	margin-bottom: 10px;
 }
 
 #newAndNoteworthy a {
    display: block;
-   width:218px; 
+   width:218px;
    height:51px;
    padding: 0;
    text-indent: -9000px;
