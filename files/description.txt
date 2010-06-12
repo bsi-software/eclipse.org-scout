@@ -1,0 +1,2 @@
+Scout is a framework to implement modern business applications.
+It features a simple and solid architecture, support for SOA, support for Corporate Identity and Corporate Design, mature GUI elements and much more
