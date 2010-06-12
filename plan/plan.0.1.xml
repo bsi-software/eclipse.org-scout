@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="http://www.eclipse.org/projects/project-plan.xsl"?>
 <plan plan-format="1.0" xmlns="http://www.eclipse.org/project/plan"
 	xmlns:html="http://www.w3.org/1999/xhtml" name="Scout">
-	<release projectid="rt.riena" version="2.0" />
+	<release projectid="technology.scout" version="2.0" />
 	<introduction>
 		<html:div>
 			<html:p>
@@ -40,7 +40,7 @@
 		</html:div>
 		<!--
 		<internationalization>
-			<html:div>Riena uses Eclipse internationalization support whereever it applies for its own components
+			<html:div>Scout uses Eclipse internationalization support whereever it applies for its own components
 			</html:div>
 		</internationalization>
 		-->
