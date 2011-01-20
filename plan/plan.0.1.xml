@@ -4,8 +4,7 @@
 	<release projectid="technology.scout" version="0.3.12" />
 	<introduction>
 		<html:div xmlns="http://www.w3.org/1999/xhtml">
-			<p>This plan describes the work for the initial Scout contribution, which is planned for July 2010.</p>
-            <p>The current plan is to participate in the 2011 release train.</p>
+			<p>This plan describes the work for the Scout contribution for the Indigo release train 2011.</p>
 		</html:div>
 	</introduction>
 	<release_deliverables>
@@ -19,8 +18,10 @@
 				n/a
 			</html:div>
 		</preamble>
-		<milestone date="8/31/2010" milestone="RC1"></milestone>
-		<milestone date="9/30/2010" milestone="3.13"></milestone>
+		<milestone date="01/28/2011" milestone="3.14 (Indigo M5)"></milestone>
+        <milestone date="03/11/2011" milestone="3.15 (Indigo M6)"></milestone>
+        <milestone date="04/29/2011" milestone="3.15 (Indigo M7)"></milestone>
+        <milestone date="06/24/2011" milestone="3.15 (Indigo)"></milestone>
 		<!--
 		<postamble>
 			<html:div xmlns="http://www.w3.org/1999/xhtml"></html:div>
