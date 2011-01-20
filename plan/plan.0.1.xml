@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <?xml-stylesheet type="text/xsl" href="http://www.eclipse.org/projects/project-plan.xsl"?>
 <plan plan-format="1.0" xmlns="http://www.eclipse.org/project/plan" xmlns:html="http://www.w3.org/1999/xhtml" name="Scout">
-	<release projectid="technology.scout" version="0.3.12" />
+	<release projectid="technology.scout" version="0.3.14" />
 	<introduction>
 		<html:div xmlns="http://www.w3.org/1999/xhtml">
 			<p>This plan describes the work for the Scout contribution for the Indigo release train 2011.</p>
@@ -18,10 +18,10 @@
 				n/a
 			</html:div>
 		</preamble>
-		<milestone date="01/28/2011" milestone="3.14 (Indigo M5)"></milestone>
-        <milestone date="03/11/2011" milestone="3.15 (Indigo M6)"></milestone>
-        <milestone date="04/29/2011" milestone="3.15 (Indigo M7)"></milestone>
-        <milestone date="06/24/2011" milestone="3.15 (Indigo)"></milestone>
+		<milestone date="01/28/2011" milestone="0.3.14 (Indigo M5)"></milestone>
+        <milestone date="03/11/2011" milestone="0.3.15 (Indigo M6)"></milestone>
+        <milestone date="04/29/2011" milestone="0.3.15 (Indigo M7)"></milestone>
+        <milestone date="06/24/2011" milestone="0.3.15 (Indigo)"></milestone>
 		<!--
 		<postamble>
 			<html:div xmlns="http://www.w3.org/1999/xhtml"></html:div>
