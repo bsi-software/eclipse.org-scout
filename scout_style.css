@@ -1,0 +1,130 @@
+#page {
+	width: 980px;
+	margin: 0px;
+	padding: 0px;
+}
+#page a {
+	color: #FE9915;
+	font-weight: normal;
+	font-style: normal;
+}
+#page a:hover {
+	color: #FF0000;
+	text-decoration: none;
+}
+#page_left {
+	float: left;
+	width: 660px;
+}
+#scout_header {
+	background: #FE9915 url("img/s.png") no-repeat;
+	height: 160px;
+	padding-left: 200px;	
+	padding-top: 40px;
+}
+#scout_header h1 {
+	color: #FFFFFF;
+	font: bold 22pt "Lucida Grande", Lucida, Verdana, sans-serif;
+	padding: 0px;
+}
+#scout_header p {
+	color: #FFFFFF;
+	font: 16pt "Lucida Grande", Lucida, Verdana, sans-serif;
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+#scout_description {
+	margin: 35px 30px;
+	font-size: 11px;
+}
+#scout_description p {
+	font-size: 1.5em;
+	line-height: 1.5em;
+	font: "Lucida Grande", Lucida, Verdana, sans-serif;
+}
+.scout_value h3 {
+	color: #0082A1;
+	border-style: none;
+	font-size: 1.4em;
+	margin-top: 10px;
+	margin-left: 15px;
+}
+.scout_value p {
+	font-size: 1em;
+	line-height: 1.5em;
+	margin: 15px;
+}
+div.scout_value:hover {
+	background-color: #E7EDF0;
+}
+#scout_value1 {
+    float: left;
+	width: 220px;
+	height: 270px;
+}
+#scout_value2 {
+    float: left;
+	width: 220px;
+	height: 270px;
+}
+#scout_value3 {
+    float: left;
+	width: 220px;
+	height: 270px;
+}
+#page_right {
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 35px;
+    float: left;
+	width: 260px;
+}
+.scout_boxtop {
+	background: url("img/boxtop.png") no-repeat;
+}
+.scout_boxmid {
+	background: url("img/boxmid.png") repeat-y;
+	padding: 15px;
+}
+.scout_boxbot {
+	background: url("img/boxbot.png") no-repeat;
+}
+.scout_boxtop h2 {
+	margin: 0px;
+	border: none;
+	padding-left: 15px;
+	padding-top: 5px;
+	color: #777;
+	font-size: 1em;
+}
+#page .scout_boxtop a {
+	margin: 0px;
+	border: none;
+	color: #777;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+.scout_boxmid p {
+	margin: 0px;
+}
+#incubation {
+	text-align: right;
+}
+
+div#leftcol p#logo {
+	float:left;
+	padding:16px;
+}
+
+ul li.download {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+a.download {
+	background-image: url('img/download_button.png');
+	background-repeat: no-repeat;
+	padding-left: 35px;
+	padding-top: 15px;
+}
