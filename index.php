@@ -22,7 +22,7 @@
 
 	# Define these here, or in _projectCommon.php for site-wide values
 	$pageKeywords	= "eclipse, project, scout, application framework";
-	$pageAuthor		= "Matthias Zimmermann";
+    $pageAuthor		= "BSI AG";
 	$pageTitle 		= "Eclipse Scout - Project Home";
 
 	# Paste your HTML content between the EOHTML markers!	
@@ -60,19 +60,17 @@
            <h2>INFO</h2>
        </div>
        <div class="scout_boxmid">
-       		<p><a href="<?php echo URL_SUMMARY; ?>">Project Summary</a></p>
+       		<p><a href="<?php echo URL_SUMMARY; ?>">About This Project</a></p>
        		<p>&nbsp;</p>
        		<p>Read the <a href="<?php echo URL_WIKI; ?>">Scout wiki</a>: Screencasts, tutorials, and more... 
        			Visit the <a href="<?php echo URL_SCOUT_FORUM; ?>">Forum</a> to ask questions, provide feedback, get in touch. </p>
 	        <p>&nbsp;</p>
        		<p>Our <a href="<?php echo URL_BLOG; ?>">Blog</a> is pushing out information to you. If that's not enough you can also <a href="<?php echo URL_TWITTER; ?>">follow us on Twitter</a>.
-       			Read the  Screencasts, tutorials, and more... 
-       			Visit the  to ask questions, provide feedback, get in touch. </p>
 	     </div>
        <div class="scout_boxbot">
            &nbsp;
        </div>
-    	<p id="incubation"><a href="<?php echo URL_ECLIPSE_INCUBATION; ?>"><img src="img/egg-incubation.png" title="Eclipse incubation" /></a></p>
+       <p id="incubation"><a href="<?php echo URL_ECLIPSE_INCUBATION; ?>"><img src="<?php echo IMG_INCUBATION_EGG; ?>" title="Eclipse incubation" /></a></p>
     </div>
   </div>
 <?php

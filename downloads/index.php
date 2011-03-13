@@ -94,8 +94,7 @@
   				} else {
   					$date = $zip['date'];
   				}
-
-  				echo '<li class="download" ><a href="'.$zip['url'].'" class="download" >'.pathinfo($zip['url'], PATHINFO_FILENAME).'</a> (<em>'.$date.'</em>)</li>'."\n";
+  				echo '<li class="download" ><a href="'.$zip['url'].'" class="download" >'.pathinfo($zip['url'], PATHINFO_BASENAME).'</a> (<em>'.$date.'</em>)</li>'."\n"; //PATHINFO_FILENAME ist nicht bekannt.
   			}
   			echo "</ul></p>\n";
   		}
@@ -122,6 +121,15 @@
 			<p>It is also possible to <a href="<?php echo URL_REPOSITORY_BROWSER; ?>">browse SVN Repository online</a>.</p>
 		</div>
 	</div>
+	
+	<div id="rightcolumn">
+	 <div class="sideitem">
+	   <h6>Incubation</h6>
+	   <div align="center"><a href="<?php echo URL_ECLIPSE_INCUBATION; ?>"><img align="center" src="<?php echo IMG_INCUBATION_EGG; ?>" border="0" alt="Incubation" /></a>
+	   <p>Eclipse Scout is in the <a href="<?php echo URL_ECLIPSE_INCUBATION_PHASE; ?>">Incubation Phase</a>.</p>
+	   </div>
+	 </div> 
+</div>
   <?php
   $html = ob_get_clean();
 

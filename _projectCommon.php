@@ -28,7 +28,8 @@
 
 	# Break the navigation into sections
 	$Nav->setHTMLBlock('<p id="logo"><a href="'.PATH_SCOUT_HOME.'"><img src="'.PATH_SCOUT_HOME.'img/scout-logo.png'.'" width="150" height="150" alt="Scout Logo" id="logo"></a></p>');
-	$Nav->addCustomNav("About This Project", URL_SUMMARY, "_self", 3);
+	
+	$Nav->addCustomNav("About This Project",URL_SUMMARY, "", 1  );
 
 	$Nav->addNavSeparator("Downloads", SITE_DOWNLOAD); 
 	$Nav->addCustomNav("Source Code (SVN)", URL_REPOSITORY_BROWSER, "_self", 3);
