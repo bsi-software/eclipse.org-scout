@@ -36,7 +36,11 @@
         <p><a href="<?php echo SITE_DOWNLOAD; ?>"><img src="img/download.png" title="Download Eclipse Scout" /></a></p>      
 		</div>
       <div id="scout_description">
-        <p>The objective of Eclipse Scout is to substantially reduce the development time needed for SOA and Java-conforming business software. Scout includes: an application model, a reference implementation, proven development functions and a comprehensive tool: the Scout SDK. <a href="<?php echo URL_LEARN_MORE; ?>"> Learn more >></a></p>
+        <p>Eclipse Scout is a mature and open framework for modern, service oriented business applications. 
+		It substantially boosts developer productivity and is simple to learn.
+		<a href="<?php echo URL_LEARN_MORE; ?>"> Learn more >></a></p>
+		<p>If you are interested in contributing to the Scout project, check out our
+		<a href="<?php echo URL_CONTRIBUTION_GUIDE; ?>"> Contribution guide >></a></p>
       </div>
       <div id="scout_value1" class="scout_value">
         <h3>Simple</h3>

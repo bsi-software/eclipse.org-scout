@@ -36,7 +36,7 @@ define("URL_UPDATE_SITE_HELP", "http://help.eclipse.org/helios/index.jsp?topic=/
 define("URL_INSTALL_MANUALLY_HELP", "http://wiki.eclipse.org/Scout/HowTo/Install_Scout_manually");
 define("URL_JAVADOC", "#");
 define("URL_BUGZILLA", "https://bugs.eclipse.org/bugs/buglist.cgi?product=scout");
-
+define("URL_CONTRIBUTION_GUIDE","http://wiki.eclipse.org/Scout/Contribution");
 
 /**
 internal links
