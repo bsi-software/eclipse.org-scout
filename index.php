@@ -74,7 +74,6 @@
        <div class="scout_boxbot">
            &nbsp;
        </div>
-       <p id="incubation"><a href="<?php echo URL_ECLIPSE_INCUBATION; ?>"><img src="<?php echo IMG_INCUBATION_EGG; ?>" title="Eclipse incubation" /></a></p>
     </div>
   </div>
 <?php
