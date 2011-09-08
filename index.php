@@ -78,13 +78,14 @@
     <div>
       <h3>News</h3>
       <p>Our <a href="<?php echo URL_BLOG; ?>">blog</a> is pushing out information to you:
-      /**
-       *<?php
-       *  $newsConverter = new RSS2HTML();
-	   *  $news = $newsConverter->convert();
-	   *  echo $news;
-       *?>
-       */
+
+       <?php
+       /**
+        *  $newsConverter = new RSS2HTML();
+	    *  $news = $newsConverter->convert();
+	    *  echo $news;
+	    */
+       ?>
       </p>
       <p>You can also <a href="<?php echo URL_TWITTER; ?>">follow us on Twitter</a>.
     </div>
