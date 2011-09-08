@@ -35,6 +35,8 @@
 			<ul>
 				<li><a href="#tutorials">Tutorials</a></li>
 				<li><a href="#screencasts">Screencasts</a></li>
+				<li><a href="#slides">Slides</a></li>
+				<li><a href="#wiki">Wiki</a></li>
 			</ul>
 		</p>
 		
@@ -61,10 +63,26 @@
 			<p>
 				<iframe title="YouTube video player" class="youtube-player" type="text/html" width="560" height="345" src="http://www.youtube.com/embed/1iCKib1gTkk" frameborder="0" allowFullScreen></iframe>
 			</p>
- 
-    		<p>More screencasts <a href="<?php echo URL_SCREENCAST_YOUTUBE; ?>">on youtube</a></p>
+			<p>More <a href="<?php echo URL_SCREENCASTS_YOUTUBE; ?>">on youtube</a></p>  
+			
+    		<p>All screencasts are listed <a href="<?php echo URL_SCREENCASTS; ?>" title='Eclipse Scout Screencasts' >on this page</a></p>
 
 		</div>
+		
+		<div style="clear: both;" class="homeitem3col" id="slides">
+			<h3>Slides</h3>			
+			
+			<p>Presentation material of the conferences on Eclipse Scout are listed <a href="<?php echo URL_SLIDES; ?>">on this page</a></p>
+
+		</div>
+		
+		<div style="clear: both;" class="homeitem3col" id="wiki">
+			<h3>Wiki</h3>
+			
+			<p>Documentation can be found here: <a href="<?php echo URL_WIKI; ?>" title='Eclipse Scout wiki' >Scout page on Eclipsepedia</a></p>
+
+		</div>
+		
 	</div>
 
   <?php
