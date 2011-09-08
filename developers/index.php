@@ -7,25 +7,25 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  * Contributors:
- *    
+ *
  *******************************************************************************/
   define("PATH_SCOUT_HOME", "../");
   include_once(PATH_SCOUT_HOME."constants.php");
-	
+
   # Eclipse Webpages Framework
-  require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/app.class.php"); 
+  require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/app.class.php");
   require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/nav.class.php");
   require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/menu.class.php");
   $App = new App();
   $Nav = new Nav();
   $Menu = new Menu();
-  include($App->getProjectCommon()); 
-  
+  include($App->getProjectCommon());
+
   # Begin: page-specific settings.  Change these.
   $pageTitle 	= "Eclipse Scout - Developers";
   $pageKeywords	= "contribution, involve, community, eclipse, scout";
   $pageAuthor	= "BSI Business System Integration AG";
-		
+
   # Paste your HTML content between the EOHTML markers!
   ob_start();
   ?>
@@ -37,33 +37,32 @@
 				<li><a href="#code">Source Code</a></li>
 		</ul> */ ?>
 		</p>
-		
-		<div style="clear: both;" class="homeitem3col" id="dashboard">
-			<h3>Project Dashboards</h3>
-			
-			<p>The <a href="<?php echo URL_SUMMARY; ?>">Project Summary</a> provides you all useful information and links about Eclipse Scout in a nutshell.</p>
-			
-			<p>The <a href="<?php echo URL_PLAN; ?>">Project Plan</a> explains you what is coming up.</p>
-		</div>
-		
+
+        <div style="clear: both;" class="homeitem3col" id="dashboard">
+            <h3>Project Dashboards</h3>
+
+            <p>The <a href="<?php echo URL_SUMMARY; ?>">Project Summary</a> provides you all useful information and links about Eclipse Scout in a nutshell.</p>
+
+            <p>The <a href="<?php echo URL_PLAN; ?>">Project Plan</a> explains you what is coming up.</p>
+        </div>
+
+        <div style="clear: both;" class="homeitem3col" id="code">
+            <h3>Contribution Guide</h3>
+
+            <p>Using Scout and wanting to contribute? Check out our <a href="<?php echo URL_CONTRIBUTION_GUIDE; ?>">Contribution guide</a>.</p>
+        </div>
+
 		<div style="clear: both;" class="homeitem3col" id="code">
 			<h3>Source Code</h3>
-			
+
 			<p>The source code is available in the SVN repository:<br/><a href="<?php echo SOURCE_REPOSITORY; ?>"><code><?php echo SOURCE_REPOSITORY; ?></code></a></p>
-			
+
 			<p><a href="<?php echo URL_MAILING_LIST; ?>">Developer Mailing List</a>: Subscribe to the developer list and get updates about the project's code aspects.</p>
-    
+
     		<p>Visit the <a href="<?php echo URL_OHLOH; ?>">Eclipse Scout page at Ohloh</a> to find project's code aspects, metrics, comments ratio...</p>
 
 		</div>
 	</div>
-	<div id="rightcolumn">
-	  <div class="sideitem">
-	    <h6>Contribution guide</h6>
-	    <div class="center"><a href="<?php echo URL_CONTRIBUTION_GUIDE; ?>" title="Contribution guide"><img align="center" src="<?php echo PATH_SCOUT_HOME; ?>img/document.png" border="0" alt="Document" /></a></div>
-	    <p>Using Scout and wanting to contribute? Check out our <a href="<?php echo URL_CONTRIBUTION_GUIDE; ?>">Contribution guide</a>.</p>
-	  </div> 
-	</div> 
 
   <?php
   $html = ob_get_clean();

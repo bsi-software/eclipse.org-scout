@@ -7,20 +7,20 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  * Contributors:
- *    
+ *
  *******************************************************************************/
 	define("PATH_SCOUT_HOME", "../");
 	include_once(PATH_SCOUT_HOME."constants.php");
-	
+
   # Eclipse Webpages Framework
-  require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/app.class.php"); 
+  require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/app.class.php");
   require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/nav.class.php");
   require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/menu.class.php");
   $App = new App();
   $Nav = new Nav();
   $Menu = new Menu();
-  include($App->getProjectCommon()); 
-  
+  include($App->getProjectCommon());
+
   # Begin: page-specific settings.  Change these.
   $pageTitle 		= "Eclipse Scout - Downloads";
   $pageKeywords	= "download, eclipse, scout, application framework";
@@ -34,7 +34,7 @@
   } else {
 	  $repOverview = NULL;
   }
-		
+
   # Paste your HTML content between the EOHTML markers!
   ob_start();
   ?>
@@ -56,12 +56,12 @@
 		</div>
 		<div style="clear: both;" class="homeitem3col" id="updatesite">
 			<h3>Using the Indigo update Site</h3>
-			
+
 			<p>If you have already an Eclipse IDE running, you might want to add the Scout functionalities to your current Eclipse installation. Select Help > Install new Software in the menu bar and work with the built in update site:
 				<br/><a href="<?php echo INDIGO_UPDATE_SITE; ?>"><code>Indigo - <?php echo INDIGO_UPDATE_SITE; ?></code></a></p>
-			
+
 			<p><img src="<?php echo PATH_SCOUT_HOME.'img/eclipse_install_scout.png'; ?>" width="476" height="317" alt="Eclipse Install Scout"></p>
-			
+
 			<p>You can enter <em>Scout</em> in the filter text or browse through the <em>Application Development Frameworks</em> category.</p>
 		</div>
 		<div style="clear: both;" class="homeitem3col" id="other">
@@ -118,21 +118,10 @@
   }
   ?>
 	</div>
-		<div style="clear: both;" class="homeitem3col" id="included">
-			<h3>Included version</h3>
-			
-			<p>Eclipse Scout is part of the release train of Eclipse Indigo (since release M5).</p>
-			
-			<p>If you work with this version, you can get Scout from the built-in update site:<br/><a href="<?php echo INDIGO_UPDATE_SITE; ?>"><code><?php echo INDIGO_UPDATE_SITE; ?></code></a></p>
-			
-			<p><img src="<?php echo PATH_SCOUT_HOME.'img/eclipse_install_scout.png'; ?>" width="476" height="317" alt="Eclipse Install Scout"></p>
-			
-			<p>You can enter <em>Scout</em> in the filter text or browse through the <em>Application Development Frameworks</em> category.</p>
-		</div>
 
 		<div style="clear: both;" class="homeitem3col" id="source">
 			<h3>Source Code</h3>
-			
+
 			<p>The source code is available in the SVN repository:<br/><a href="<?php echo SOURCE_REPOSITORY; ?>"><code><?php echo SOURCE_REPOSITORY; ?></code></a></p>
 			<p>It is also possible to <a href="<?php echo URL_REPOSITORY_BROWSER; ?>">browse SVN Repository online</a>.</p>
 		</div>

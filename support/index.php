@@ -7,43 +7,66 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  * Contributors:
- *    
+ *
  *******************************************************************************/
   define("PATH_SCOUT_HOME", "../");
   include_once(PATH_SCOUT_HOME."constants.php");
-	
+
   # Eclipse Webpages Framework
-  require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/app.class.php"); 
+  require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/app.class.php");
   require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/nav.class.php");
   require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/menu.class.php");
   $App = new App();
   $Nav = new Nav();
   $Menu = new Menu();
-  include($App->getProjectCommon()); 
-  
+  include($App->getProjectCommon());
+
   # Begin: page-specific settings.  Change these.
   $pageTitle 	= "Eclipse Scout - Support";
   $pageKeywords	= "support, community, eclipse, scout";
   $pageAuthor	= "BSI Business System Integration AG";
-		
+
   # Paste your HTML content between the EOHTML markers!
   ob_start();
   ?>
 	<div id="midcolumn">
 		<h1>Get Support</h1>
-		<p>Do you need help with Eclipse Scout?
+		<p>Are you looking for help with Eclipse Scout?
 <?php /*	<ul>
-				<li><a href="#community">Community support</a></li>
+				<li><a href="#community">Eclipse Scout Community Support</a></li>
 		</ul> */ ?>
 		</p>
-		
+
 		<div style="clear: both;" class="homeitem3col" id="community">
-			<h3>Community support</h3>
-			<p>There are different way to get support from the community:</p>
-			<p><a href="<?php echo URL_WIKI; ?>">Eclipsepedia</a>: Documentation including a simple "Getting Started" tutorial can be found on the Eclipse wiki.</p>
-			<p><a href="<?php echo URL_SCOUT_FORUM; ?>">Eclipse Scout Forum</a>: Ask every question you like to on the forum.</p>
-			<p><a href="<?php echo URL_BUGZILLA; ?>">Eclipse Scout Bugzilla</a>: review and create Bugzilla entries.</p>
+			<h3>Eclipse Scout Community Support</h3>
+			<p>There are different ways to get support from the community.
+			Before you ask questions in the forum or open new bugs it is considered polite to do the following:
+			</p>
+
+			<ol>
+			  <li>Check the <a href="<?php echo URL_WIKI; ?>">Scout Wiki</a> for information.</li>
+			  <li>Find relevant posts/answers in the <a href="<?php echo URL_SCOUT_FORUM; ?>">Scout Forum.</a></li>
+			  <li>Verify the <a href="<?php echo URL_BUGZILLA; ?>">Scout Bugzilla</a> for open bugs/enhancements.</li>
+			</ol>
+
+            <p>If your issue is not already addressed properly, feel free to:</p>
+
+            <ul>
+			  <li><a href="<?php echo URL_SCOUT_FORUM; ?>">Eclipse Scout Forum</a>: Ask your question on the forum.</li>
+			  <li><a href="<?php echo URL_BUGZILLA; ?>">Eclipse Scout Bugzilla</a>: Create a new Bugzilla entry.</li>
+			</ul>
 		</div>
+        <div style="clear: both;" class="homeitem3col" id="community">
+            <h3>Eclipse Scout Professional Support</h3>
+            <p>Scout has been developed at <a href="http://www.bsiag.com/en/home.html">BSI</a> since 2001.
+            In 2011, BSI has published Scout under the Eclipse Public License.
+            </p>
+            <p>If you plan to prototype Eclipse Scout applications,
+            ask BSI for training and consulting to maximize your value.
+            When your organization decides for Scout, you want to rely on the experience provided by our Scout experts at BSI.
+            For further information please contact <a href="mail:scout@bsiag.com">scout@bsiag.com</a>.
+            </p>
+        </div>
 	</div>
 
   <?php
