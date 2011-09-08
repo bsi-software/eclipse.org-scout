@@ -44,16 +44,16 @@
 			</p>
 
 			<ol>
-			  <li>Check the <a href="<?php echo URL_WIKI; ?>">Scout Wiki</a> for information.</li>
-			  <li>Find relevant posts/answers in the <a href="<?php echo URL_SCOUT_FORUM; ?>">Scout Forum.</a></li>
-			  <li>Verify the <a href="<?php echo URL_BUGZILLA; ?>">Scout Bugzilla</a> for open bugs/enhancements.</li>
+			  <li>Check the <a href="<?php echo URL_WIKI; ?>">Scout Wiki</a> for information</li>
+			  <li>Find relevant posts/answers in the <a href="<?php echo URL_SCOUT_FORUM; ?>">Scout Forum</a></li>
+			  <li>Verify the <a href="<?php echo URL_BUGZILLA; ?>">Scout Bugzilla</a> for open bugs/enhancements</li>
 			</ol>
 
             <p>If your issue is not already addressed properly, feel free to:</p>
 
             <ul>
-			  <li><a href="<?php echo URL_SCOUT_FORUM; ?>">Eclipse Scout Forum</a>: Ask your question on the forum.</li>
-			  <li><a href="<?php echo URL_BUGZILLA; ?>">Eclipse Scout Bugzilla</a>: Create a new Bugzilla entry.</li>
+			  <li>Ask your question in the <a href="<?php echo URL_SCOUT_FORUM; ?>">Eclipse Scout Forum</a></li>
+			  <li>Create a new bug on <a href="<?php echo URL_BUGZILLA; ?>">Eclipse Scout Bugzilla</a></li>
 			</ul>
 		</div>
         <div style="clear: both;" class="homeitem3col" id="community">
@@ -62,9 +62,9 @@
             In 2011, BSI has published Scout under the Eclipse Public License.
             </p>
             <p>If you plan to prototype Eclipse Scout applications,
-            ask BSI for training and consulting to maximize your value.
+            ask <a href="http://www.bsiag.com/en/home.html">BSI</a> for training and consulting to maximize your value.
             When your organization decides for Scout, you want to rely on the experience provided by our Scout experts at BSI.
-            For further information please contact <a href="mail:scout@bsiag.com">scout@bsiag.com</a>.
+            For further information please contact <a href="mailto:scout@bsiag.com">scout@bsiag.com</a>.
             </p>
         </div>
 	</div>
