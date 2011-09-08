@@ -7,20 +7,20 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *
  * Contributors:
- *
+ *    
  *******************************************************************************/
 	define("PATH_SCOUT_HOME", "../");
 	include_once(PATH_SCOUT_HOME."constants.php");
-
+	
   # Eclipse Webpages Framework
-  require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/app.class.php");
+  require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/app.class.php"); 
   require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/nav.class.php");
   require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/menu.class.php");
   $App = new App();
   $Nav = new Nav();
   $Menu = new Menu();
-  include($App->getProjectCommon());
-
+  include($App->getProjectCommon()); 
+  
   # Begin: page-specific settings.  Change these.
   $pageTitle 		= "Eclipse Scout - Downloads";
   $pageKeywords	= "download, eclipse, scout, application framework";
@@ -34,7 +34,7 @@
   } else {
 	  $repOverview = NULL;
   }
-
+		
   # Paste your HTML content between the EOHTML markers!
   ob_start();
   ?>
@@ -43,13 +43,29 @@
 		<p>
 			There are different ways to get Eclipse Scout. Using an update site is easier to install and allows you to stay up to date with the latest versions of Eclipse Scout.
 			<ul>
-				<li><a href="#install">Eclipse Scout versions</a></li>
-				<li><a href="#included">Included version</a></li>
+				<li><a href="#package">Eclipse for Scout Developers</a></li>
+				<li><a href="#updatesite">Using the Indigo update site</a></li>
+				<li><a href="#other">Using other update sites</a></li>
 				<li><a href="#source">Source code</a></li>
 			</ul>
 		</p>
-		<div style="clear: both;" class="homeitem3col" id="install">
-			<h3>Eclipse Scout versions</h3>
+		<div style="clear: both;" class="homeitem3col" id="package">
+			<h3>Eclipse for Scout Developers</h3>
+			<p>The easiest way to download Eclipse Scout is to get the packaged distribution from the <a href="<?php echo URL_ECLIPSE_DOWNLOAD; ?>">Eclipse download page</a>.</p>
+			<p><a href="<?php echo URL_ECLIPSE_DOWNLOAD; ?>"><img src="<?php echo PATH_SCOUT_HOME.'img/eclipse_for_scout_developers.png'; ?>" width="400" height="56" alt="Eclipse for Scout Developers"></a></p>
+		</div>
+		<div style="clear: both;" class="homeitem3col" id="updatesite">
+			<h3>Using the Indigo update Site</h3>
+			
+			<p>If you have already an Eclipse IDE running, you might want to add the Scout functionalities to your current Eclipse installation. Select Help > Install new Software in the menu bar and work with the built in update site:
+				<br/><a href="<?php echo INDIGO_UPDATE_SITE; ?>"><code>Indigo - <?php echo INDIGO_UPDATE_SITE; ?></code></a></p>
+			
+			<p><img src="<?php echo PATH_SCOUT_HOME.'img/eclipse_install_scout.png'; ?>" width="476" height="317" alt="Eclipse Install Scout"></p>
+			
+			<p>You can enter <em>Scout</em> in the filter text or browse through the <em>Application Development Frameworks</em> category.</p>
+		</div>
+		<div style="clear: both;" class="homeitem3col" id="other">
+			<h3>Using other update sites</h3>
   <?php
   if(is_null($repOverview)) {
   	echo '<p>No version of Eclipse Scout have been found. Please report it in <a href="'.URL_ECLIPSE_SCOUT_FORUM.'">our forum</a>.</p>'."\n";
@@ -85,7 +101,7 @@
   		}
 
   		if(count($release->zip) > 0) {
-  			echo '<p>You can also download the files directly and install them manually (<a href="'.URL_INSTALL_MANUALLY_HELP.'" >see how</a>)</p>';
+  			echo '<p>You can also download the files directly and install them manually (<a href="'.URL_INSTALL_MANUALLY_HELP.'" >see how</a>)';
   			echo "<ul>\n";
   			date_default_timezone_set(TIME_ZONE);
   			foreach($release->zip as $zip) {
@@ -104,24 +120,23 @@
 	</div>
 		<div style="clear: both;" class="homeitem3col" id="included">
 			<h3>Included version</h3>
-
+			
 			<p>Eclipse Scout is part of the release train of Eclipse Indigo (since release M5).</p>
-
+			
 			<p>If you work with this version, you can get Scout from the built-in update site:<br/><a href="<?php echo INDIGO_UPDATE_SITE; ?>"><code><?php echo INDIGO_UPDATE_SITE; ?></code></a></p>
-
+			
 			<p><img src="<?php echo PATH_SCOUT_HOME.'img/eclipse_install_scout.png'; ?>" width="476" height="317" alt="Eclipse Install Scout"></p>
-
+			
 			<p>You can enter <em>Scout</em> in the filter text or browse through the <em>Application Development Frameworks</em> category.</p>
 		</div>
 
 		<div style="clear: both;" class="homeitem3col" id="source">
 			<h3>Source Code</h3>
-
+			
 			<p>The source code is available in the SVN repository:<br/><a href="<?php echo SOURCE_REPOSITORY; ?>"><code><?php echo SOURCE_REPOSITORY; ?></code></a></p>
 			<p>It is also possible to <a href="<?php echo URL_REPOSITORY_BROWSER; ?>">browse SVN Repository online</a>.</p>
 		</div>
 	</div>
-
   <?php
   $html = ob_get_clean();
 
