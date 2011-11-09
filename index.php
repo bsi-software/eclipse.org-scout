@@ -47,10 +47,6 @@
       <p>Eclipse Scout is a mature and open framework for modern, service oriented business applications. It substantially boosts developer productivity and is simple to learn. <a href="<?php echo URL_LEARN_MORE; ?>"> Learn more >></a></p>
     </div>
 
-    <div id="preview">
-      <p><img src="img/eclipse_scout_app.png" alt="An Eclipse Scout Application" width="595" height="410" /></p>
-    </div>
-
     <div id="scout_value1" class="scout_value">
       <h3>Simple</h3>
       <p> Looking for an an application framework where you really get what you see? Then you might really like to have a look at the <a href="<?php echo URL_SCREENCASTS; ?>">Eclipse Scout Screencasts >></a></p>
