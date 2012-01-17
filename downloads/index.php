@@ -46,7 +46,7 @@
 				<li><a href="#package">Eclipse for Scout Developers</a></li>
 				<li><a href="#updatesite">Using the Indigo update site</a></li>
 				<li><a href="#other">Using other update sites</a></li>
-				<li><a href="#source">Source code</a></li>
+				<li><a href="#source">Getting the Source code</a></li>
 			</ul>
 		</p>
 		<div style="clear: both;" class="homeitem3col" id="package">
@@ -120,7 +120,7 @@
 	</div>
 
 		<div style="clear: both;" class="homeitem3col" id="source">
-			<h3>Source Code</h3>
+			<h3>Getting the Source Code</h3>
 
 			<p>The source code is available in the SVN repository:<br/><a href="<?php echo SOURCE_REPOSITORY; ?>"><code><?php echo SOURCE_REPOSITORY; ?></code></a></p>
 			<p>Accessing specific released versions or branches is described on our <a href="http://wiki.eclipse.org/Scout/Contribution#Getting_the_Scout_Sources">Wiki pages</a>.</p>
