@@ -123,7 +123,7 @@
 			<h3>Source Code</h3>
 
 			<p>The source code is available in the SVN repository:<br/><a href="<?php echo SOURCE_REPOSITORY; ?>"><code><?php echo SOURCE_REPOSITORY; ?></code></a></p>
-			<p>It is also possible to <a href="<?php echo URL_REPOSITORY_BROWSER; ?>">browse SVN Repository online</a>.</p>
+			<p>Accessing specific released versions or branches is described on our <a href="http://wiki.eclipse.org/Scout/Contribution#Getting_the_Scout_Sources">Wiki pages</a>.</p>
 		</div>
 	</div>
   <?php
