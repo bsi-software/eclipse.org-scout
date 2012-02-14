@@ -32,22 +32,22 @@
 	$Nav->addNavSeparator( "Eclipse Scout", PATH_SCOUT_HOME );
 	$Nav->addCustomNav( "About This Project", URL_SUMMARY, "", 1  );
 
-	$Nav->addNavSeparator("Downloads", SITE_DOWNLOAD); 
+	$Nav->addNavSeparator("Downloads", SITE_DOWNLOAD);
 	$Nav->addCustomNav("Source Code (SVN)", URL_REPOSITORY_BROWSER, "_self", 3);
-	
-    $Nav->addNavSeparator("Documentation", SITE_DOC); 
+
+    $Nav->addNavSeparator("Documentation", SITE_DOC);
   	$Nav->addCustomNav("Tutorial", URL_TUTORIAL, "_self", 3);
   	$Nav->addCustomNav("Screencasts", URL_SCREENCAST_YOUTUBE, "_self", 3);
   	//$Nav->addCustomNav("Javadoc", URL_JAVADOC, "_self", 3);
 
-  	$Nav->addNavSeparator("Get Support", SITE_SUPPORT); 
+  	$Nav->addNavSeparator("Get Support", SITE_SUPPORT);
     $Nav->addCustomNav("Wiki", URL_WIKI, "_self", 3);
   	$Nav->addCustomNav("Forum", URL_SCOUT_FORUM, "_self", 3);
   	$Nav->addCustomNav("Bugzilla", URL_BUGZILLA, "_self", 3);
 
-    $Nav->addNavSeparator("Getting Involved", SITE_GETINVOLVED); 
+    $Nav->addNavSeparator("Getting Involved", SITE_GETINVOLVED);
   	$Nav->addCustomNav("Mailing List", URL_MAILING_LIST, "_self", 3);
-    
+
 	# Define keywords, author and title here, or in each PHP page specifically
 	$pageKeywords	= "eclipse, java, project, scout, application framework";
 	$pageAuthor		= "Matthias Zimmermann";
@@ -69,8 +69,8 @@
 	$App->Promotion = TRUE;
 
 	# If you have Google Analytics code, use it here
-	# $App->SetGoogleAnalyticsTrackingCode("YOUR_CODE");
-	
+	$App->SetGoogleAnalyticsTrackingCode("UA-29181496-1");
+
 	# Define my own RSS feed!
 	$App->PageRSS = "http://www.bsiag.com/scout/?feed=rss2";
 	$App->PageRSSTitle = "Eclipse Scout Project Feed";
