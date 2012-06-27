@@ -42,16 +42,13 @@
 		<h1>Downloads</h1>
 		<p>
 			There is a number of ways to get Eclipse Scout.
-			The two most common and simple approaches are described below.
-			<ul>
-				<li><a href="#package">Eclipse for Scout Developers</a></li>
-				<li><a href="#updatesite">Using the Release update site</a></li>
-			</ul>
-
-			More information on how to get Eclipse Scout and access the Source code is provided in the <a href="http://wiki.eclipse.org/Scout/HowTo/Install_Scout_SDK">Scout Wiki pages</a>.
+			Below, the two most common and simple approaches are described.
+			Detailed information on all available methods to download Eclipse
+			Scout and access its Source code is provided in the
+			<a href="http://wiki.eclipse.org/Scout/HowTo/Install_Scout_SDK">Scout Wiki pages</a>.
 		</p>
 		<div style="clear: both;" class="homeitem3col" id="package">
-			<h3>Eclipse for Scout Developers</h3>
+			<h3>Download the Package "Eclipse for Scout Developers"</h3>
 			<p>If you don't have an Eclipse installation yet or don't want to add Scout to your existing Eclipse IDE, the method described below is for you.</p>
 			<p>The easiest way to download Eclipse Scout is to get the packaged distribution from the <a href="<?php echo URL_ECLIPSE_DOWNLOAD; ?>">Eclipse download page</a>.</p>
 			<p><a href="<?php echo URL_ECLIPSE_DOWNLOAD; ?>"><img src="<?php echo PATH_SCOUT_HOME.'img/eclipse_for_scout_developers.png'; ?>" width="400" height="56" alt="Eclipse for Scout Developers"></a></p>
@@ -59,11 +56,11 @@
 		<div style="clear: both;" class="homeitem3col" id="updatesite">
 			<h3>Using the Release update Site</h3>
 
-			<p>If you have already an Eclipse IDE running, you might want to add the Scout functionalities to your current Eclipse installation.
+			<p>If you already have an existing Eclipse IDE, you might want to add the Scout functionalities to your current Eclipse installation.
 			Select Help > Install new Software in the menu bar and work with the built in update site:
 				<br/><a href="<?php echo JUNO_UPDATE_SITE; ?>"><code>Juno - <?php echo JUNO_UPDATE_SITE; ?></code></a></p>
 
-			<p><img src="<?php echo PATH_SCOUT_HOME.'img/updatesite_juno.png'; ?>" width="478" height="515" alt="Eclipse Install Scout"></p>
+			<p><img src="<?php echo PATH_SCOUT_HOME.'img/updatesite_juno.PNG'; ?>" width="478" height="515" alt="Eclipse Install Scout"></p>
 
 			<p>You can enter <em>Scout</em> in the filter text or browse through the <em>Application Development Frameworks</em> category.</p>
 		</div>
