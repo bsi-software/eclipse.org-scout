@@ -51,7 +51,7 @@
 			<h3>Download the Package "Eclipse for Scout Developers"</h3>
 			<p>If you don't have an Eclipse installation yet or don't want to add Scout to your existing Eclipse IDE, the method described below is for you.</p>
 			<p>The easiest way to download Eclipse Scout is to get the packaged distribution from the <a href="<?php echo URL_ECLIPSE_DOWNLOAD; ?>">Eclipse download page</a>.</p>
-			<p><a href="<?php echo URL_ECLIPSE_DOWNLOAD; ?>"><img src="<?php echo PATH_SCOUT_HOME.'img/eclipse_for_scout_developers.png'; ?>" width="400" height="56" alt="Eclipse for Scout Developers"></a></p>
+			<p><a href="<?php echo URL_ECLIPSE_DOWNLOAD; ?>"><img src="<?php echo PATH_SCOUT_HOME.'img/epp_juno.png'; ?>" width="732" height="60" alt="Eclipse for Scout Developers"></a></p>
 		</div>
 		<div style="clear: both;" class="homeitem3col" id="updatesite">
 			<h3>Using the Release update Site</h3>
