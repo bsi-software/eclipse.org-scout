@@ -9,7 +9,7 @@ define("REPOSITORY_OVERVIEW", "http://download.eclipse.org/scout/repositoryOverv
 
 define("SOURCE_REPOSITORY", "http://dev.eclipse.org/svnroot/technology/org.eclipse.scout");
 define("INDIGO_UPDATE_SITE", "http://download.eclipse.org/release/indigo");
-define("JUNO_UPDATE_SITE", "http://download.eclipse.org/release/juno");
+define("JUNO_UPDATE_SITE", "http://download.eclipse.org/releases/juno");
 
 $ECLIPSE_VERSIONS = array();
 $ECLIPSE_VERSIONS[] = array("version" => 3.5, "name" => "Eclipse Galileo", "name_info" => "(older version)", "url" => "http://www.eclipse.org/downloads/packages/release/galileo/sr2");
