@@ -40,11 +40,7 @@
 
 			<p>If you are new to Eclipse Scout, you should consider the <a href="<?php echo URL_TUTORIAL_HELLOWORLD; ?>">Hello World tutorial</a>. In a couple of minutes, you will create a very simple application step by step.</p>
 
-			<p>Deploying a Scout Application on Tomcat is very easy, learn more in the <a href="<?php echo URL_TUTORIAL_TOMCAT; ?>">Deploy a Scout Application to Tomcat tutorial</a>.</p>
-
 			<p><img alt="Eclipse Scout" src="<?php echo PATH_SCOUT_HOME; ?>/img/tutorial_screenshot.png" width="470" height="415"/></p>
-
-    		<p></p>
 		</div>
 
 		<div style="clear: both;" class="homeitem3col" id="screencasts">
