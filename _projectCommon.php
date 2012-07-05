@@ -37,7 +37,7 @@
 
     $Nav->addNavSeparator("Documentation", SITE_DOC);
   	$Nav->addCustomNav("Tutorial", URL_TUTORIAL, "_self", 3);
-  	$Nav->addCustomNav("Screencasts", URL_SCREENCAST_YOUTUBE, "_self", 3);
+  	$Nav->addCustomNav("Screencasts", URL_SCREENCASTS_YOUTUBE, "_self", 3);
   	//$Nav->addCustomNav("Javadoc", URL_JAVADOC, "_self", 3);
 
   	$Nav->addNavSeparator("Get Support", SITE_SUPPORT);
