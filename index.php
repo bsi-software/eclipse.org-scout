@@ -50,7 +50,7 @@
     <div id="scout_value1" class="scout_value">
       <h3>Simple</h3>
       <p> Looking for an an application framework where you really get what you see? Then you might really like to have a look at the <a href="<?php echo URL_SCREENCASTS; ?>">Eclipse Scout Screencasts >></a></p>
-      <p><a href="<?php echo URL_SCREENCAST_LAST; ?>"><img src="img/foto1.png" title="Scout is simple" /></a></p>
+      <p><a href="<?php echo URL_SCREENCAST_LAST; ?>"><img src="img/videotutorial1.png" title="Scout is simple" /></a></p>
     </div>
     <div id="scout_value2" class="scout_value">
       <h3>Stable</h3>
