@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<?xml-stylesheet type="text/xsl" href="http://www.eclipse.org/projects/project-plan.xsl"?>
+<plan plan-format="1.0" xmlns="http://www.eclipse.org/project/plan" xmlns:html="http://www.w3.org/1999/xhtml" name="Eclipse Scout">
+	<release projectid="technology.scout" version="3.9" />
+	<introduction>
+		<html:div>
+			<html:p>This plan describes the work for Scout release 3.9 for the Kepler release train 2013.</html:p>
+            <html:p>Main goals are to provide support for tablet/mobile applications based on Scout.</html:p>
+		</html:div>
+	</introduction>
+	<release_deliverables>
+		<html:div>
+				n/a
+		</html:div>
+	</release_deliverables>
+	<release_milestones>
+		<preamble>
+			<html:div>
+				Bugfix deliverables for Juno SR1 (09/28/12), and Juno SR2 (02/22/13).
+				Scout plans on delivering builds for the following Kepler milestones.
+			</html:div>
+		</preamble>
+        <milestone date="10/05/2012" milestone="M2"></milestone>
+        <milestone date="11/16/2012" milestone="M3"></milestone>
+        <milestone date="12/21/2012" milestone="M4"></milestone>
+        <milestone milestone="M5"></milestone>
+        <milestone milestone="M6 (API freeze)"></milestone>
+        <milestone milestone="M7 (feature freeze)"></milestone>
+        <milestone milestone="RC1"></milestone>
+        <milestone milestone="RC2"></milestone>
+        <milestone milestone="RC3"></milestone>
+        <milestone milestone="RC4"></milestone>
+        <milestone milestone="GA"></milestone>
+		<!--
+		<postamble>
+			<html:div></html:div>
+		</postamble>
+		-->
+	</release_milestones>
+	<target_environments>
+		<html:div>
+			Scout's target environments are:
+			<html:ul>
+                <html:li>Eclipse based RCP applications (SWT and Swing)</html:li>
+                <html:li>Eclipse based Web applications (RAP)</html:li>
+				<html:li>Equinox based runtimes (e.g. Equinox servers)</html:li>
+			</html:ul>
+		</html:div>
+		<!--
+		<internationalization>
+			<html:div>
+			  Scout uses Eclipse internationalization support wherever it applies for its own components
+			</html:div>
+		</internationalization>
+		-->
+	</target_environments>
+	<compatibility_with_previous_releases>
+		<html:div>
+				n/a
+		</html:div>
+	</compatibility_with_previous_releases>
+</plan>
