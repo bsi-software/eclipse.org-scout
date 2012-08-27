@@ -33,7 +33,7 @@
 	$Nav->addCustomNav( "About This Project", URL_SUMMARY, "", 1  );
 
 	$Nav->addNavSeparator("Downloads", SITE_DOWNLOAD);
-	$Nav->addCustomNav("Source Code (SVN)", URL_REPOSITORY_BROWSER, "_self", 3);
+	$Nav->addCustomNav("Source Code (Git)", SOURCE_REPOSITORY, "_self", 3);
 
     $Nav->addNavSeparator("Documentation", SITE_DOC);
   	$Nav->addCustomNav("Tutorial", URL_TUTORIAL, "_self", 3);

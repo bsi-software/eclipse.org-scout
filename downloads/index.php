@@ -67,7 +67,7 @@
 		<div style="clear: both;" class="homeitem3col" id="source">
 			<h3>Getting the Source Code</h3>
 
-			<p>The source code is available in the SVN repository:<br/><a href="<?php echo SOURCE_REPOSITORY; ?>"><code><?php echo SOURCE_REPOSITORY; ?></code></a></p>
+			<p>The source code is available in the Git repository:<br/><a href="<?php echo SOURCE_REPOSITORY; ?>"><code><?php echo SOURCE_REPOSITORY; ?></code></a></p>
 			<p>Accessing specific released versions or branches is described on our <a href="http://wiki.eclipse.org/Scout/Contribution#Getting_the_Scout_Sources">Wiki pages</a>.</p>
 		</div>
 	</div>

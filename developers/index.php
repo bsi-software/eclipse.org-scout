@@ -49,7 +49,7 @@
 		<div style="clear: both;" class="homeitem3col" id="code">
 			<h3>Source Code</h3>
 
-			<p>The source code is available in the SVN repository:<br/><a href="<?php echo SOURCE_REPOSITORY; ?>"><code><?php echo SOURCE_REPOSITORY; ?></code></a></p>
+			<p>The source code is available in the Git repository:<br/><a href="<?php echo SOURCE_REPOSITORY; ?>"><code><?php echo SOURCE_REPOSITORY; ?></code></a></p>
 
 			<p><a href="<?php echo URL_MAILING_LIST; ?>">Developer Mailing List</a>: Subscribe to the developer list and get updates about the project's code aspects.</p>
 		</div>

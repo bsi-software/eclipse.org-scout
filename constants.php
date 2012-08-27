@@ -7,7 +7,7 @@ define("TIME_ZONE", "Europe/Berlin");
 
 define("REPOSITORY_OVERVIEW", "http://download.eclipse.org/scout/repositoryOverview.xml");
 
-define("SOURCE_REPOSITORY", "http://dev.eclipse.org/svnroot/technology/org.eclipse.scout");
+define("SOURCE_REPOSITORY", "http://git.eclipse.org/c/scout");
 define("INDIGO_UPDATE_SITE", "http://download.eclipse.org/release/indigo");
 define("JUNO_UPDATE_SITE", "http://download.eclipse.org/releases/juno");
 
@@ -38,7 +38,6 @@ define("URL_ECLIPSE_DOWNLOAD", "http://www.eclipse.org/downloads");
 define("URL_ECLIPSE_INCUBATION", "http://www.eclipse.org/projects/what-is-incubation.php");
 define("URL_ECLIPSE_INCUBATION_PHASE", "http://www.eclipse.org/projects/dev_process/incubation-phase.php");
 define("URL_SCOUT_FORUM", "http://www.eclipse.org/forums/eclipse.scout");
-define("URL_REPOSITORY_BROWSER", "http://dev.eclipse.org/viewcvs/viewvc.cgi/?root=Technology_SCOUT");
 define("URL_UPDATE_SITE_HELP", "http://help.eclipse.org/helios/index.jsp?topic=/org.eclipse.platform.doc.user/tasks/tasks-127.htm");
 define("URL_INSTALL_MANUALLY_HELP", "http://wiki.eclipse.org/Scout/HowTo/Install_Scout_manually");
 define("URL_JAVADOC", "#");
