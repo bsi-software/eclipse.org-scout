@@ -35,8 +35,8 @@
         <h1>Eclipse Scout</h1>
         <p>Business application framework</p>
         <p><a href="<?php echo SITE_DOWNLOAD; ?>"><img src="img/download.png" title="Download Eclipse Scout" /></a></p>
-	  </div>
-	  <div id="scout_buttons">
+    </div>
+    <div id="scout_buttons">
         <p><a href="<?php echo SITE_DOC; ?>"><img src="img/read.png" title="Eclipse Scout - Documentation" /></a></p>
         <p><a href="<?php echo SITE_SUPPORT; ?>"><img src="img/ask.png" title="Eclipse Scout - Support" /></a></p>
         <p><a href="<?php echo SITE_GETINVOLVED; ?>"><img src="img/engage.png" title="Eclipse Scout - Getting Involved" /></a></p>
@@ -45,6 +45,7 @@
   <div id="page_left">
     <div class="scout_description">
       <p>Eclipse Scout is a mature and open framework for modern, service oriented business applications. It substantially boosts developer productivity and is simple to learn. <a href="<?php echo URL_LEARN_MORE; ?>"> Learn more >></a></p>
+      <p><a href="http://www.bsiag.com/scout/?p=585"><img src="img/ece2012_teaser.png" title="Eclipse Scout @ Eclipsecon Europe 2012" /></a></p>
     </div>
 
     <div id="scout_value1" class="scout_value">
@@ -78,9 +79,9 @@
        <?php
        /**
         *  $newsConverter = new RSS2HTML();
-	    *  $news = $newsConverter->convert();
-	    *  echo $news;
-	    */
+      *  $news = $newsConverter->convert();
+      *  echo $news;
+      */
        ?>
       </p>
       <p>You can also <a href="<?php echo URL_TWITTER; ?>">follow us on Twitter</a>.
