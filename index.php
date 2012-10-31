@@ -45,7 +45,6 @@
   <div id="page_left">
     <div class="scout_description">
       <p>Eclipse Scout is a mature and open framework for modern, service oriented business applications. It substantially boosts developer productivity and is simple to learn. <a href="<?php echo URL_LEARN_MORE; ?>"> Learn more >></a></p>
-      <p><a href="http://www.bsiag.com/scout/?p=585"><img src="img/ece2012_teaser.png" width=680 height=234 title="Eclipse Scout @ Eclipsecon Europe 2012" /></a></p>
     </div>
 
     <div id="scout_value1" class="scout_value">
