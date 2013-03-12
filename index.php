@@ -12,6 +12,31 @@
   define("PATH_SCOUT_HOME", "./");
   include_once(PATH_SCOUT_HOME."constants.php");
   include_once(PATH_SCOUT_HOME."script/rss2html.php");
+  
+  //Talks:
+  define("LOCATION_CITY", "City");
+  define("LOCATION_NAME", "Name");
+  define("LOCATION_URL", "Url");
+  define("TALK_LOCATION", "Location");
+  define("TALK_DATE", "Date");
+  define("TALK_URL", "Url");
+  define("TALK_TITLE", "Title");
+
+  $eclipseCon = array(LOCATION_CITY => "Boston",
+                      LOCATION_NAME => "EclipseCon",
+                      LOCATION_URL => "http://www.eclipsecon.org/2013");
+
+  $talks = array();
+  //mktime: hour, minute, second, month, day, year 
+  $talks[] = array(TALK_LOCATION => $eclipseCon,
+                   TALK_DATE => mktime(0, 0, 0, 3, 26, 2013),
+                   TALK_URL => "http://www.eclipsecon.org/2013/sessions/testing-scout-application-junit-and-jubula-0",
+                   TALK_TITLE => "Testing a Scout Application with JUnit and Jubula (Presented by BSI)");
+  $talks[] = array(TALK_LOCATION => $eclipseCon,
+                   TALK_DATE => mktime(0, 0, 0, 3, 27, 2013),
+                   TALK_URL => "http://www.eclipsecon.org/2013/sessions/developing-mobile-applications-eclipse-scout",
+                   TALK_TITLE => "Developing mobile applications with Eclipse Scout");
+
 
   //Eclipse Webpages Framework
   require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/app.class.php");
@@ -78,13 +103,52 @@
        <?php
        /**
         *  $newsConverter = new RSS2HTML();
-      *  $news = $newsConverter->convert();
-      *  echo $news;
-      */
+        *  $news = $newsConverter->convert();
+        *  echo $news;
+        */
        ?>
       </p>
       <p>You can also <a href="<?php echo URL_TWITTER; ?>">follow us on Twitter</a>.
     </div>
+    
+    <?php
+    if(isset($talks) && is_array($talks) && count($talks) > 0) {
+      $display_talks = array();
+      $display_locations = array();
+      foreach ($talks as &$t) {
+        if($t[TALK_DATE] > (time() - 86400)) { // 86400 = (one day) = 24 * 60 * 60
+          if(!array_key_exists($t[TALK_LOCATION][LOCATION_NAME], $display_talks)) {
+            $display_locations[$t[TALK_LOCATION][LOCATION_NAME]] = $t[TALK_LOCATION];
+            $display_talks[$t[TALK_LOCATION][LOCATION_NAME]] = array();
+          }
+          $key = $t[TALK_DATE];
+          while(array_key_exists($key, $display_talks[$t[TALK_LOCATION][LOCATION_NAME]])) {
+            $key = $key + 1;
+          }
+          $display_talks[$t[TALK_LOCATION][LOCATION_NAME]][$key] = $t;
+        }
+      }
+      if(count($display_talks) > 0) {
+    ?>
+    <div>
+      <h3>Next Talks</h3>
+        <?php
+        foreach ($display_talks as $location_name => $talks) {
+          echo '<p>Meet Eclipse Scout in '.$display_locations[$location_name][LOCATION_CITY].' ';
+          echo 'at <a href="'.$display_locations[$location_name][LOCATION_URL].'">'.$display_locations[$location_name][LOCATION_NAME].'</a>:</p>';
+          echo '<ul>';
+		  ksort($talks);
+          foreach ($talks as $dt) {
+            echo '<li><a href="'.$dt[TALK_URL].'">'.$dt[TALK_TITLE].'</a></li>';
+          }
+        }
+        ?>
+        </ul>
+    </div>
+    <?php
+      } //end if $display_talks
+    } //end if $talks
+    ?>
   </div>
 </div>
 <?php
