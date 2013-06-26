@@ -10,12 +10,16 @@ define("REPOSITORY_OVERVIEW", "http://download.eclipse.org/scout/repositoryOverv
 define("SOURCE_REPOSITORY", "http://git.eclipse.org/c/scout");
 define("INDIGO_UPDATE_SITE", "http://download.eclipse.org/release/indigo");
 define("JUNO_UPDATE_SITE", "http://download.eclipse.org/releases/juno");
+define("KEPLER_UPDATE_SITE", "http://download.eclipse.org/releases/kepler");
 
 $ECLIPSE_VERSIONS = array();
 $ECLIPSE_VERSIONS[] = array("version" => 3.5, "name" => "Eclipse Galileo", "name_info" => "(older version)", "url" => "http://www.eclipse.org/downloads/packages/release/galileo/sr2");
 $ECLIPSE_VERSIONS[] = array("version" => 3.6, "name" => "Eclipse Helios", "name_info" => "(older version)", "url" => "http://www.eclipse.org/downloads/packages/release/helios/sr2");
-$ECLIPSE_VERSIONS[] = array("version" => 3.7, "name" => "Eclipse Indigo", "name_info" => "(current release)", "url" => "http://www.eclipse.org/downloads/");
-$ECLIPSE_VERSIONS[] = array("version" => 3.8, "name" => "Eclipse Juno", "name_info" => "(developer build)", "url" => "http://www.eclipse.org/downloads/index-developer.php");
+$ECLIPSE_VERSIONS[] = array("version" => 3.7, "name" => "Eclipse Indigo", "name_info" => "(older version)", "url" => "http://www.eclipse.org/downloads/packages/release/indigo/sr2");
+$ECLIPSE_VERSIONS[] = array("version" => 4.2, "name" => "Eclipse Juno", "name_info" => "(older version)", "url" => "http://www.eclipse.org/downloads/packages/release/juno/sr2");
+$ECLIPSE_VERSIONS[] = array("version" => 4.3, "name" => "Eclipse Kepler", "name_info" => "(current release)", "url" => "http://www.eclipse.org/downloads");
+//$ECLIPSE_VERSIONS[] = array("version" => 4.4, "name" => "Eclipse Luna", "name_info" => "(developer build)", "url" => "http://www.eclipse.org/downloads/index-developer.php");
+
 
 define("IMG_INCUBATION_EGG", "/images/egg-incubation.png");
 
@@ -33,7 +37,7 @@ define("URL_SCREENCAST_LAST", "http://www.youtube.com/watch?v=cDsKszUY56Q");
 define("URL_SLIDES", "http://wiki.eclipse.org/Scout/Overview/Slides");
 define("URL_BLOG", "http://www.bsiag.com/scout/");
 define("URL_TWITTER", "http://twitter.com/eclipseScout");
-define("URL_SUMMARY", "/projects/project_summary.php?projectid=technology.scout");
+define("URL_SUMMARY", "http://projects.eclipse.org/projects/technology.scout");
 define("URL_ECLIPSE_DOWNLOAD", "http://www.eclipse.org/downloads");
 define("URL_ECLIPSE_INCUBATION", "http://www.eclipse.org/projects/what-is-incubation.php");
 define("URL_ECLIPSE_INCUBATION_PHASE", "http://www.eclipse.org/projects/dev_process/incubation-phase.php");
@@ -48,6 +52,8 @@ define("URL_MAILING_LIST", "https://dev.eclipse.org/mailman/listinfo/scout-dev")
 define("URL_OHLOH", "http://www.ohloh.net/p/eclipsescout");
 define("URL_PLAN", "http://eclipse.org/projects/project-plan.php?projectid=technology.scout");
 
+define("URL_BSI", "http://www.bsiag.com/en/home.html");
+define("URL_BSI_SCOUT", "http://www.bsiag.com/en/technology/eclipse-scout.html");
 /**
 internal links
 **/

@@ -22,20 +22,34 @@
   define("TALK_URL", "Url");
   define("TALK_TITLE", "Title");
 
-  $eclipseCon = array(LOCATION_CITY => "Boston",
-                      LOCATION_NAME => "EclipseCon",
-                      LOCATION_URL => "http://www.eclipsecon.org/2013");
+  $eclipseConFrance = array(LOCATION_CITY => "Toulouse",
+                            LOCATION_NAME => "EclipseCon France",
+                            LOCATION_URL => "http://www.eclipsecon.org/france2013/");
+
+  $demoCampMunich = array(LOCATION_CITY => "Munich",
+                          LOCATION_NAME => "DemoCamp Kepler 2013 Munich",
+                          LOCATION_URL => "http://wiki.eclipse.org/Eclipse_DemoCamps_Kepler_2013/Munich");
+
+  $demoCampZurich = array(LOCATION_CITY => "Zurich",
+                          LOCATION_NAME => "DemoCamp Kepler 2013 Zurich",
+                          LOCATION_URL => "http://wiki.eclipse.org/Eclipse_DemoCamps_Kepler_2013/Zurich");
 
   $talks = array();
   //mktime: hour, minute, second, month, day, year 
-  $talks[] = array(TALK_LOCATION => $eclipseCon,
-                   TALK_DATE => mktime(0, 0, 0, 3, 26, 2013),
-                   TALK_URL => "http://www.eclipsecon.org/2013/sessions/testing-scout-application-junit-and-jubula-0",
-                   TALK_TITLE => "Testing a Scout Application with JUnit and Jubula (Presented by BSI)");
-  $talks[] = array(TALK_LOCATION => $eclipseCon,
-                   TALK_DATE => mktime(0, 0, 0, 3, 27, 2013),
-                   TALK_URL => "http://www.eclipsecon.org/2013/sessions/developing-mobile-applications-eclipse-scout",
-                   TALK_TITLE => "Developing mobile applications with Eclipse Scout");
+  $talks[] = array(TALK_LOCATION => $eclipseConFrance,
+                   TALK_DATE => mktime(0, 0, 0, 6, 8, 2013),
+                   TALK_URL => "http://www.eclipsecon.org/france2013/",
+                   TALK_TITLE => "Meet us at EclipseCon France in Toulouse");
+
+  $talks[] = array(TALK_LOCATION => $demoCampMunich,
+                   TALK_DATE => mktime(0, 0, 0, 6, 12, 2013),
+                   TALK_URL => "http://wiki.eclipse.org/Eclipse_DemoCamps_Kepler_2013/Munich",
+                   TALK_TITLE => "Mobile Business Applications with Eclipse Scout");
+
+  $talks[] = array(TALK_LOCATION => $demoCampZurich,
+                   TALK_DATE => mktime(0, 0, 0, 6, 27, 2013),
+                   TALK_URL => "http://wiki.eclipse.org/Eclipse_DemoCamps_Kepler_2013/Zurich",
+                   TALK_TITLE => "Mobile Business Applications with Eclipse Scout");
 
 
   //Eclipse Webpages Framework

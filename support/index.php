@@ -56,14 +56,14 @@
 			  <li>Create a new bug on <a href="<?php echo URL_BUGZILLA; ?>">Eclipse Scout Bugzilla</a></li>
 			</ul>
 		</div>
-        <div style="clear: both;" class="homeitem3col" id="community">
+        <div style="clear: both;" class="homeitem3col" id="support">
             <h3>Eclipse Scout Professional Support</h3>
-            <p>Scout has been developed at <a href="http://www.bsiag.com/en/home.html">BSI</a> since 2001.
+            <p>Scout has been developed at <a href="<?php echo URL_BSI; ?>">BSI</a> since 2001.
             In 2011, BSI has published Scout under the Eclipse Public License.
             </p>
             <p>If you plan to prototype Eclipse Scout applications,
-            ask <a href="http://www.bsiag.com/en/home.html">BSI</a> for training and consulting to maximize your value.
-            When your organization decides for Scout, you want to rely on the experience provided by our Scout experts at BSI.
+            ask <a href="<?php echo URL_BSI; ?>">BSI</a> for training and consulting to maximize your value.
+            When your organization decides for Scout, you want to rely on the experience provided by our <a href="<?php echo URL_BSI_SCOUT; ?>">Scout experts at BSI</a>.
             For further information please contact <a href="mailto:scout@bsiag.com">scout@bsiag.com</a>.
             </p>
         </div>

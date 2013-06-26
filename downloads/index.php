@@ -51,16 +51,16 @@
 			<h3>Download the Package "Eclipse for Scout Developers"</h3>
 			<p>If you don't have an Eclipse installation yet or don't want to add Scout to your existing Eclipse IDE, the method described below is for you.</p>
 			<p>The easiest way to download Eclipse Scout is to get the packaged distribution from the <a href="<?php echo URL_ECLIPSE_DOWNLOAD; ?>">Eclipse download page</a>.</p>
-			<p><a href="<?php echo URL_ECLIPSE_DOWNLOAD; ?>"><img src="<?php echo PATH_SCOUT_HOME.'img/epp_juno.png'; ?>" width="732" height="60" alt="Eclipse for Scout Developers"></a></p>
+			<p><a href="<?php echo URL_ECLIPSE_DOWNLOAD; ?>"><img src="<?php echo PATH_SCOUT_HOME.'img/eclipse_for_scout_developers_kepler.png'; ?>" width="700" height="84" alt="Eclipse for Scout Developers"></a></p>
 		</div>
 		<div style="clear: both;" class="homeitem3col" id="updatesite">
 			<h3>Using the Release update Site</h3>
 
 			<p>If you already have an existing Eclipse IDE, you might want to add the Scout functionalities to your current Eclipse installation.
 			Select Help > Install new Software in the menu bar and work with the built in update site:
-				<br/><a href="<?php echo JUNO_UPDATE_SITE; ?>"><code>Juno - <?php echo JUNO_UPDATE_SITE; ?></code></a></p>
+				<br/><a href="<?php echo KEPLER_UPDATE_SITE; ?>"><code>Kepler - <?php echo KEPLER_UPDATE_SITE; ?></code></a></p>
 
-			<p><img src="<?php echo PATH_SCOUT_HOME.'img/updatesite_juno.PNG'; ?>" width="478" height="515" alt="Eclipse Install Scout"></p>
+			<p><img src="<?php echo PATH_SCOUT_HOME.'img/eclipse_install_scout_kepler.png'; ?>" width="540" height="480" alt="Eclipse Install Scout"></p>
 
 			<p>You can enter <em>Scout</em> in the filter text or browse through the <em>Application Development Frameworks</em> category.</p>
 		</div>
