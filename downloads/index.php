@@ -63,6 +63,8 @@
 			<p><img src="<?php echo PATH_SCOUT_HOME.'img/eclipse_install_scout_kepler.png'; ?>" width="540" height="480" alt="Eclipse Install Scout"></p>
 
 			<p>You can enter <em>Scout</em> in the filter text or browse through the <em>Application Development Frameworks</em> category.</p>
+
+			<p>The list of all update sites is available in the <a href="http://wiki.eclipse.org/Scout/Updatesites">wiki</a></p>
 		</div>
 		<div style="clear: both;" class="homeitem3col" id="source">
 			<h3>Getting the Source Code</h3>
