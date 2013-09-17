@@ -64,7 +64,7 @@
 
 			<p>You can enter <em>Scout</em> in the filter text or browse through the <em>Application Development Frameworks</em> category.</p>
 
-			<p>The list of all update sites is available in the <a href="http://wiki.eclipse.org/Scout/Updatesites">wiki</a></p>
+			<p>The list of all update sites is available on this <a href="http://wiki.eclipse.org/Scout/Updatesites">wiki page</a>.</p>
 		</div>
 		<div style="clear: both;" class="homeitem3col" id="source">
 			<h3>Getting the Source Code</h3>
