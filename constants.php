@@ -33,7 +33,7 @@ define("URL_TUTORIAL_HELLOWORLD", "http://wiki.eclipse.org/Scout/Tutorial/HelloW
 define("URL_TUTORIAL_TOMCAT", "http://wiki.eclipse.org/Scout/Tutorial/Deploy_to_Tomcat");
 define("URL_SCREENCASTS", "http://wiki.eclipse.org/Scout/Overview/Screencasts");
 define("URL_SCREENCASTS_YOUTUBE", "http://www.youtube.com/eclipsescout");
-define("URL_SCREENCAST_LAST", "http://www.youtube.com/watch?v=cDsKszUY56Q");
+define("URL_SCREENCAST_LAST", "http://www.youtube.com/watch?v=SgbKrZHseTQ&list=PLM9RhoqzsT4Xvkf1lo4ry57JdneEGUJaC");
 define("URL_SLIDES", "http://wiki.eclipse.org/Scout/Overview/Slides");
 define("URL_BLOG", "http://www.bsiag.com/scout/");
 define("URL_TWITTER", "http://twitter.com/eclipseScout");
