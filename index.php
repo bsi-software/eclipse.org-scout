@@ -299,43 +299,44 @@
 							
 							<div class="col-sm-6 col-md-5">
 								<div class="section-demo-content">
-									<h4>
-										<span>Eclipse Scout Demo - </span>
+									<h2>The Scout Widget Demo</h2>
+									
+									<h4>A Client only Application</h4>
 											
-										Create a Scout Project
-									</h4>
+									<p>Play with the Scout demo application and explore Scout forms, widgets and pages</p>
 											
-									<p>Create a new Scout Project &amp; start the Application from the Scout SDK</p>
-											
+									<!--
 									<div class="row">
 										<div class="col-md-5 section-demo-list">
 											<p>What’s in the Demo?</p>
 											
 											<ul>
-												<li>11 Components</li>
+												<li>Example Forms and Pages</li>
 												
-												<li>2 Samples</li>
+												<li>20 UI Widgets</li>
 												
-												<li>2 Pictures</li>
+												<li>Client only application</li>
 											</ul>
-										</div><!-- /.col -->
+										</div>
 										
 										<div class="col-md-7 section-demo-list">
-											<p>Full Version of Eclipse Scout?</p>
+											<p>Scout also includes</p>
 											
 											<ul>
-												<li>100 Components</li>
+												<li>Client server architecture</li>
 												
-												<li>25 Samples</li>
+												<li>Authentication and authorization</li>
 												
-												<li>14 Pictures</li>
+												<li>And much more</li>
 											</ul>
-										</div><!-- /.col -->
-										</div><!-- /.row -->
+										</div>
+									</div>
+									-->
 								</div><!-- /.section-demo-content -->
 											
 								<div class="section-demo-actions">
 									<a href="#" class="btn btn-default demo-btn">Try the Live Demo</a>
+									<a href="#" class="btn btn-default demo-btn">Mobile Version</a>
 								</div><!-- /.section-demo-actions -->
 							</div><!-- /.col-md-6 -->
 						</div><!-- /.row -->
@@ -354,12 +355,13 @@
 
 							<div class="col-sm-5 col-md-5 col-md-offset-1 col-sm-pull-6 col-md-pull-5">
 								<div class="section-download-content">
-									<h2>Download the Package</h2>
+									<h2>Download and Install</h2>
 								
 									<h4>Eclipse for Scout Developers</h4>
 								
 									<p>The easiest way to download Eclipse Scout is to get the packaged distribution from the Eclipse download page.</p>
 								
+									<!--
 									<div class="checkbox custom-checkbox">
 										<input type="checkbox" name="download-trigger" id="download-trigger" />
 										
@@ -368,15 +370,16 @@
 											
 											Show other Version
 										</label>
-									</div><!-- /.checkbox -->
+									</div> --> <!-- /.checkbox -->
 								</div><!-- /.section-download-content -->
 								
 								<div class="section-download-actions">
-									<a href="#" class="btn btn-default btn-windows">Download For Windows</a>
-									
+									<a href="#" class="btn btn-default btn-windows">Download Instructions</a>
+									<!--
 									<a href="#" class="btn btn-default btn-mac">Download For Mac</a>
 
 									<a href="#" class="btn btn-default btn-linux">Download For Linux</a>
+									-->
 								</div><!-- /.section-download-actions -->
 							</div><!-- /.col-md-6 -->
 						</div><!-- /.row -->
@@ -396,12 +399,13 @@
 							
 							<div class="col-sm-5 col-md-6">
 								<div class="section-tutorials-content">
-									<h4>
-										Eclipse Scout
-										
-										<span>Tutorials</span>
-									</h4>
-								
+									<h2>The "Hello World!"</h2>
+									
+									<h4>Your first Scout Application</h4>
+									
+									<p>Create a initial client server application, add widgets on the client and some business logic on the server side.</p>
+									
+									<!--
 									<div class="row">
 										<div class="col-md-6">
 											<ul class="section-tutorials-list">
@@ -435,7 +439,7 @@
 													</a>
 												</li>
 											</ul>
-										</div><!-- /.col-md-6 -->
+										</div>
 										
 										<div class="col-md-6">
 											<ul class="section-tutorials-list">
@@ -469,12 +473,13 @@
 													</a>
 												</li>
 											</ul>
-										</div><!-- /.col-md-6 -->
-									</div><!-- /.row -->
+										</div>
+									</div>
+									-->
 								</div><!-- /.section-tutorials-content -->
 								
 								<div class="section-tutorials-actions">
-									<a href="#" class="btn btn-default">View all Tutorials</a>
+									<a href="#" class="btn btn-default btn-helloworld">Do the "Hello World!"</a>
 								</div><!-- /.section-tutorials-actions -->
 							</div><!-- /.col-md-5 -->
 						</div><!-- /.row -->
@@ -501,20 +506,6 @@
 									<p>Sustainability and long-term thinking are in Scout’s genes. Over 10 years, Scout has evolved into the mature and versatile framework it is today. And the open source communit around Scout is growing since 2009. This makes Scout a perfect choice for your business-critical applications.</p>
 								</div><!-- /.benefit-entry -->
 							</div>
-		
-						    <div class="benefit">
-						    	<div class="benefit-head " data-href=".open-source">
-						    		<span class="ico-wrapper">
-						    			<i class="ico ico-monitor-small"></i>
-						    		</span>
-						    											
-									<h5 class="benefit-title">Open Source, free to use</h5><!-- /.benefit-title -->
-								</div><!-- /.benefit-head -->
-
-								<div class="benefit-entry open-source">
-									<p>The Scout framework is open source software and free to use for both pesonal and commercial projects. At the same time, Scout profits from the world-class IP management enforced in all Eclipse projects. </p>
-								</div><!-- /.benefit-entry -->
-						    </div>
 		
 						    <div class="benefit">
 						    	<div class="benefit-head " data-href=".increase-productivity">
@@ -555,6 +546,20 @@
 
 								<div class="benefit-entry simple-to-learn">
 									<p>Thanks to the tooling support and the available documentation Scout is simple to learn. Java developers can expect to get started within a few days. </p>
+								</div><!-- /.benefit-entry -->
+						    </div>
+		
+						    <div class="benefit">
+						    	<div class="benefit-head " data-href=".open-source">
+						    		<span class="ico-wrapper">
+						    			<i class="ico ico-monitor-small"></i>
+						    		</span>
+						    											
+									<h5 class="benefit-title">Open Source, free to use</h5><!-- /.benefit-title -->
+								</div><!-- /.benefit-head -->
+
+								<div class="benefit-entry open-source">
+									<p>The Scout framework is open source software and free to use for both pesonal and commercial projects. At the same time, Scout profits from the world-class IP management enforced in all Eclipse projects. </p>
 								</div><!-- /.benefit-entry -->
 						    </div>
 						</div>
@@ -625,7 +630,7 @@
 										
 										<p>The Scout framework covers a complete client server architecture. </p>
 										
-										<p>Business rules are implemented on the server, and the clienttakes care of the user interaction.</p>
+										<p>Business rules are implemented on the server, and the client takes care of the user interaction.</p>
 													
 										<p>This separation supports a clean technical layering. </p>
 									</div><!-- /.feature-content -->
@@ -705,7 +710,7 @@
 							<div class="section-body">
 								<div class="col-sm-4 col-md-4 testimonial">
 									<blockquote>
-										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+										<p>We were convinced by Scout's architecture, the short training times and the group of active Scout committers. </p>
 
 										<a href="http://www.bsiag.com/de/referenzen/unsere-kunden/detail/references/eclipse-scout-bei-agro.html">Read More</a>
 		
@@ -714,11 +719,11 @@
 									
 									<div class="author">
 										<div class="author-image">
-											<img src="css/images/temp/kyle.jpg" height="56" width="56" alt="" />
+											<img src="css/images/temp/nils.png" height="56" width="56" alt="" />
 										</div><!-- /.author-image -->
 										
 										<div class="author-content">
-											<p class="author-name">Kyle.s</p><!-- /.author-name -->
+											<p class="author-name">Nils Israel</p><!-- /.author-name -->
 											
 											<p class="author-position">software developer</p>
 										</div><!-- /.author-content -->
@@ -727,7 +732,7 @@
 							
 								<div class="col-sm-4 col-md-4 testimonial">
 									<blockquote>
-										<p>There are many variations of passages of Lorem Ipsum available.</p>
+										<p>Everything’s possible in Scout.</p>
 
 										<a href="http://www.bsiag.com/de/referenzen/unsere-kunden/detail/references/eclipse-scout-bei-agro.html">Read More</a>
 		
@@ -740,13 +745,13 @@
 										</div><!-- /.author-image -->
 										
 										<div class="author-content">
-											<p class="author-name">SEO Jerry</p><!-- /.author-name -->
+											<p class="author-name">Bertin Kiekebosch</p><!-- /.author-name -->
 											
-											<p class="author-position">software developer</p>
+											<p class="author-position">IT manager</p>
 										</div><!-- /.author-content -->
 									</div><!-- /.author -->
 								</div><!-- /.col-md-4 -->
-							
+								
 								<div class="col-sm-4 col-md-4 testimonial">
 									<blockquote>
 										<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It  has roots in a piece.</p>
@@ -759,15 +764,15 @@
 									<div class="author">
 										<div class="author-image">
 											<img src="css/images/temp/lee.jpg" height="56" width="56" alt="" />
-										</div><!-- /.author-image -->
+										</div>
 										
 										<div class="author-content">
-											<p class="author-name">Lee</p><!-- /.author-name -->
+											<p class="author-name">Lee</p>
 											
 											<p class="author-position">software architects</p>
-										</div><!-- /.author-content -->
-									</div><!-- /.author -->
-								</div><!-- /.col-md-4 -->
+										</div>
+									</div>
+								</div>
 							</div><!-- /.section-body -->
 						</div><!-- /.row -->
 					</div><!-- /.container -->

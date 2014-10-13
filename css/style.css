@@ -137,9 +137,9 @@ ol { list-style-position: inside; }
 	#Section Demo
 ========================================================================== */
 .section-demo { padding: 67px 0 46px; background: #0184a3 url(images/section-demo-s.png) 0 bottom no-repeat; color: #fff; }
-.section-demo-content h4 { margin: -4px 0 8px; font-family: 'Dax-Regular', sans-serif; font-size: 38px; line-height: 0.87; }
-.section-demo-content h4 span { font-size: 33px; font-weight: 900; }
-.section-demo-content p { margin-bottom: 17px; font-size: 22px; }
+.section-demo-content h2 { margin: -5px 0 1px; font-family: 'Dax-Regular', sans-serif; font-size: 45px; font-weight: 800; }
+.section-demo-content h4 { margin: 0 0 14px; font-family: 'Dax-Regular', sans-serif; font-size: 38px; }
+.section-demo-content p { margin-bottom: 17px; font-size: 21px; }
 .section-demo-list p { margin-bottom: 12px; font-size: 19px; }  
 .section-demo-list ul { list-style: none outside none; }
 .section-demo-list li ~ li { margin-top: 5px; }
@@ -157,8 +157,7 @@ ol { list-style-position: inside; }
 .section-download-content label { color: #474747; }
 
 .section-download-actions { margin-top: 26px; }
-.section-download-actions .btn-default { min-width: 287px; margin-bottom: 10px; padding: 7px 20px 9px 51px; background-image: url(images/ico-winlogo.png); background-repeat: no-repeat; background-position: 13px 8px; border-width: 2px; text-align: left; }
-.section-download-actions .btn-default:hover { background-image: url(images/ico-winlogo-hover.png); }
+.section-download-actions .btn-default { min-width: 287px; margin-bottom: 10px; padding: 7px 20px 9px 51px; border-width: 2px; text-align: left; }
 
 .section-download-actions .btn-mac { background-image: url(images/ico-apple.png); background-position: 12px center; }
 .section-download-actions .btn-mac:hover { background-image: url(images/ico-apple-hover.png); color: #000; } 
@@ -175,8 +174,9 @@ ol { list-style-position: inside; }
 	#Section Tutorials
 ========================================================================== */
 .section-tutorials { padding: 58px 0 52px; background: #5d5d5d; color: #fff; }
-.section-tutorials-content h4 { margin: -2px 0 11px; font-family: 'Dax-Regular', sans-serif; font-size: 46px; }
-.section-tutorials-content h4 span { font-family: 'Dax-Regular', sans-serif; font-weight: bold; }
+.section-tutorials-content h2 { margin: -5px 0 1px; font-family: 'Dax-Regular', sans-serif; font-size: 45px; font-weight: 800; }
+.section-tutorials-content h4 { margin: 0 0 14px; font-family: 'Dax-Regular', sans-serif; font-size: 38px; }
+.section-tutorials-content p { margin-bottom: 17px; font-size: 21px; }
 .section-tutorials-list { list-style: none inside none; }
 .section-tutorials-list li ~ li { margin-top: 10px; }
 .section-tutorials-list a { display: inline-block; background: url(images/ico-tutorials.png) 0 2px no-repeat; color: #fff; line-height: 1.2; text-decoration: none; }

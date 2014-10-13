@@ -136,14 +136,41 @@
 			fixedContentPos: false
 		});
 
-		$(".demo-btn").colorbox({
+		$(".demo-btnX").colorbox({
 			inline:true,
-			innerWidth: 640,
-			innerHeight: 455,
-			maxWidth: '90%',
+			// innerWidth: 640,
+			// innerHeight: 455,
+			maxWidth: 700,
 			maxHeight: '90%',
-			width: "100%",
-			href:".section-demo"
+			width: "90%",
+			height: "90%",
+			// href:".section-demo"
+			iframe:true,
+			href:"scout_helloworld.html"
+		});
+		$(".btn-windows").colorbox({
+			inline:true,
+			// innerWidth: 640,
+			// innerHeight: 455,
+			maxWidth: 700,
+			maxHeight: '90%',
+			width: "90%",
+			height: "90%",
+			// href:".section-demo"
+			iframe:true,
+			href:"scout_install.html"
+		});
+		$(".btn-helloworld").colorbox({
+			inline:true,
+			// innerWidth: 640,
+			// innerHeight: 455,
+			maxWidth: 700,
+			maxHeight: '90%',
+			width: "90%",
+			height: "90%",
+			// href:".section-demo"
+			iframe:true,
+			href:"scout_helloworld.html"
 		});
 
 		// Section Download - Buttons Functionality
