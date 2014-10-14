@@ -24,17 +24,8 @@
         		<a href="#">News</a>
 
         		<ul>
-            		<li>
-            			<a href="#">News #1</a>
-            		</li>
-            	
-            		<li>
-            			<a href="#">News #2</a>
-            		</li>
-            	
-            		<li>
-            			<a href="#">News #3</a>
-            		</li>
+		            <li><a href="https://twitter.com/EclipseScout">Twitter</a></li>
+		            <li><a href="http://www.bsiag.com/scout">Blog</a></li>
         		</ul>
         	</li>
         
@@ -42,29 +33,10 @@
         		<a href="#">Documentation</a>
 
         		<ul>
-            		<li>
-            			<a href="#">Overview</a>
-            		</li>
-            	
-            		<li>
-            			<a href="#">Scout Book</a>
-            		</li>
-            	
-            		<li>
-            			<a href="#">Developer's Guide</a>
-            		</li>
-
-            		<li>
-            			<a href="#">New and Noteworthy</a>
-            		</li>
-            		
-            		<li>
-            			<a href="#">Articles</a>
-            		</li>
-            		
-            		<li>
-            			<a href="#">Tutorials</a>
-            		</li>
+		            <li><a href="https://www.youtube.com/user/eclipsescout">Video Tutorials</a></li>
+		            <li><a href="https://wiki.eclipse.org/Scout/Tutorial">Wiki Tutorials</a></li>
+		            <li><a href="http://tools.bsiag.com/scoutbook/4.0/2014-10-13_22-06-54/html/book.html">Scout Book</a></li>
+		            <li><a href="https://wiki.eclipse.org/Scout">Wiki</a></li>
         		</ul>
         	</li>
         
@@ -72,17 +44,10 @@
         		<a href="#">Community</a>
           
         		<ul>
-            		<li>
-            			<a href="#">Getting involved</a>
-            		</li>
-            	
-            		<li>
-            			<a href="#">Forum</a>
-            		</li>
-            	
-            		<li>
-            			<a href="#">Bugs</a>
-            		</li>
+		            <li><a href="http://www.eclipse.org/forums/index.php?t=thread&frm_id=174">Ask Questions</a></li>
+		            <li><a href="https://bugs.eclipse.org/bugs/buglist.cgi?bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&bug_status=RESOLVED&bug_status=VERIFIED&columnlist=bug_id%2Cbug_severity%2Cpriority%2Ctarget_milestone%2Cbug_status%2Cresolution%2Ccomponent%2Cassigned_to%2Cshort_desc&list_id=10272285&product=Scout&query_format=advanced">
+						View open Bugs</a></li>
+		            <li><a href="https://wiki.eclipse.org/Scout/Contribution">Contribute</a></li>
         		</ul>
         	</li>
 
@@ -90,17 +55,8 @@
 	        	<a href="#">Support</a>
 
 	        	<ul>
-            		<li>
-            			<a href="https://www.eclipse.org/forums/index.php/t/801835/">Forum</a>
-            		</li>
-            	
-            		<li>
-            			<a href="#">Professional Services</a>
-            		</li>
-            	
-            		<li>
-            			<a href="#contact-us" class="slide-to-section">Contact us</a>
-            		</li>
+		            <li><a href="https://www.bsiag.com/en/technology/eclipse-scout.html">Professional Services</a></li>
+		            <li><a href="#contact-us" class="slide-to-section">Contact us</a></li>
         		</ul>
     	    </li>
     	</ul>
@@ -128,13 +84,8 @@
 		        		<a href="#" >News</a>
 	
 						<ul class="dropdown-menu" role="menu">
-		            		<li>
-		            			<a href="https://twitter.com/EclipseScout">Twitter</a>
-		            		</li>
-		            	
-		            		<li>
-		            			<a href="http://www.bsiag.com/scout">Blog</a>
-		            		</li>
+		            		<li><a href="https://twitter.com/EclipseScout">Twitter</a></li>
+		            		<li><a href="http://www.bsiag.com/scout">Blog</a></li>
 		        		</ul>
 		        	</li>
 		        
@@ -142,29 +93,10 @@
 		        		<a href="#" >Documentation</a>
 	
 		        		<ul class="dropdown-menu" role="menu">
-		            		<li>
-		            			<a href="#">Overview</a>
-		            		</li>
-		            	
-		            		<li>
-		            			<a href="#">Scout Book</a>
-		            		</li>
-		            	
-		            		<li>
-		            			<a href="#">Developer's Guide</a>
-		            		</li>
-	
-		            		<li>
-		            			<a href="#">New and Noteworthy</a>
-		            		</li>
-		            		
-		            		<li>
-		            			<a href="#">Articles</a>
-		            		</li>
-		            		
-		            		<li>
-		            			<a href="#">Tutorials</a>
-		            		</li>
+		            		<li><a href="https://www.youtube.com/user/eclipsescout">Video Tutorials</a></li>
+		            		<li><a href="https://wiki.eclipse.org/Scout/Tutorial">Wiki Tutorials</a></li>
+		            		<li><a href="http://tools.bsiag.com/scoutbook/4.0/2014-10-13_22-06-54/html/book.html">Scout Book</a></li>
+		            		<li><a href="https://wiki.eclipse.org/Scout">Wiki</a></li>
 		        		</ul>
 		        	</li>
 		        
@@ -172,17 +104,10 @@
 		        		<a href="#" >Community</a>
 		          
 		        		<ul class="dropdown-menu" role="menu">
-		            		<li>
-		            			<a href="#">Getting involved</a>
-		            		</li>
-		            	
-		            		<li>
-		            			<a href="#">Forum</a>
-		            		</li>
-		            	
-		            		<li>
-		            			<a href="#">Bugs</a>
-		            		</li>
+		            		<li><a href="http://www.eclipse.org/forums/index.php?t=thread&frm_id=174">Ask Questions</a></li>
+		            		<li><a href="https://bugs.eclipse.org/bugs/buglist.cgi?bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&bug_status=RESOLVED&bug_status=VERIFIED&columnlist=bug_id%2Cbug_severity%2Cpriority%2Ctarget_milestone%2Cbug_status%2Cresolution%2Ccomponent%2Cassigned_to%2Cshort_desc&list_id=10272285&product=Scout&query_format=advanced">
+								View open Bugs</a></li>
+		            		<li><a href="https://wiki.eclipse.org/Scout/Contribution">Contribute</a></li>
 		        		</ul>
 		        	</li>
 	
@@ -190,17 +115,8 @@
 			        	<a href="#" >Support</a>
 	
 			        	<ul class="dropdown-menu" role="menu">
-		            		<li>
-		            			<a href="http://www.eclipse.org/forums/index.php?t=thread&frm_id=174">Community Support</a>
-		            		</li>
-		            	
-		            		<li>
-		            			<a href="https://www.bsiag.com/en/technology/eclipse-scout.html">Professional Services</a>
-		            		</li>
-		            	
-		            		<li>
-		            			<a href="#contact-us" class="slide-to-section">Contact us</a>
-		            		</li>
+		            		<li><a href="https://www.bsiag.com/en/technology/eclipse-scout.html">Professional Services</a></li>
+		            		<li><a href="#contact-us" class="slide-to-section">Contact us</a></li>
 		        		</ul>
 		    	    </li>
 		    	</ul>
@@ -708,7 +624,7 @@
 							<div class="section-body">
 								<div class="col-sm-4 col-md-4 testimonial">
 									<blockquote>
-										<p>We were convinced by Scout's architecture, the short training times and the group of active Scout committers. </p>
+										<p>We were convinced by Scout's architecture, the short training times and the many active Scout committers. </p>
 
 										<a href="http://www.bsiag.com/de/referenzen/unsere-kunden/detail/references/eclipse-scout-bei-agro.html">Read More</a>
 		
