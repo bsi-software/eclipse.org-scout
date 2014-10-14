@@ -12,7 +12,7 @@ body { height: 100%; }
 body { background: #fff; font-family: 'Open Sans', sans-serif; font-size: 17px; line-height: 1.1; color: #686767; min-width: 320px; }
 
 a { cursor: pointer; }
-a:hover { text-decoration: underline; }
+/* a:hover { text-decoration: underline; } */
 
 img { border: 0; vertical-align: middle; }
 
@@ -303,6 +303,17 @@ ol { list-style-position: inside; }
 .link-facebok:hover,
 .link-twitter:hover,
 .link-blog:hover  { background-color: #fe9915; border-color: #fe9915; }
+
+/* font awesome chars see http://astronautweb.co/snippet/font-awesome/ */
+.footer a { color:#fff; vertical-align: middle; }
+.lnk-footer { padding-left: 10px; padding-right: 10px; font-size:16px; }
+.btn-social { padding-left: 5px; font-size:30px; }
+.fa{display:inline-block;font-family:FontAwesome;font-style:normal;font-weight:normal;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+.fa-twitter-square:before{content:"\f081"; color: #fff;}
+.fa-rss-square:before{content:"\f143 "; color: #fff;}
+.fa-google-plus-square:before{content:"\f0d4"; color: #fff;}
+.fa-facebook-square:before{content:"\f082"; color: #fff;}
+.fa-youtube-square:before{content:"\f166"; color: #fff;}
 
 .percentage-content { padding-top: 25px; }
 .footer-toggler { display: none; }

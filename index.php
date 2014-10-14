@@ -127,17 +127,13 @@
 		    		<li class="dropdown">
 		        		<a href="#" >News</a>
 	
-		        		<ul class="dropdown-menu" role="menu">
+						<ul class="dropdown-menu" role="menu">
 		            		<li>
-		            			<a href="#">News #1</a>
+		            			<a href="https://twitter.com/EclipseScout">Twitter</a>
 		            		</li>
 		            	
 		            		<li>
-		            			<a href="#">News #2</a>
-		            		</li>
-		            	
-		            		<li>
-		            			<a href="#">News #3</a>
+		            			<a href="http://www.bsiag.com/scout">Blog</a>
 		            		</li>
 		        		</ul>
 		        	</li>
@@ -195,11 +191,11 @@
 	
 			        	<ul class="dropdown-menu" role="menu">
 		            		<li>
-		            			<a href="https://www.eclipse.org/forums/index.php/t/801835/">Forum</a>
+		            			<a href="http://www.eclipse.org/forums/index.php?t=thread&frm_id=174">Community Support</a>
 		            		</li>
 		            	
 		            		<li>
-		            			<a href="#">Professional Services</a>
+		            			<a href="https://www.bsiag.com/en/technology/eclipse-scout.html">Professional Services</a>
 		            		</li>
 		            	
 		            		<li>
@@ -228,6 +224,7 @@
 								<p>Future Proof Bussiness Applications</p>
 							</div><!-- /.intro-content -->
 							
+							<!-- reenable once the video is made
 							<div class="intro-actions">
 								<a href="https://www.youtube.com/watch?v=XQu8TTBmGhA" class="video-link popup-link">
 									<i class="ico ico-play"></i> <br />
@@ -237,7 +234,8 @@
 								<br />
 							
 								<i class="ico ico-mouse"></i>
-							</div><!-- /.intro-actions -->
+							</div> 
+							-->
 						</div><!-- /.intro-inner -->
 					</div><!-- /.col-md-12 -->
 				</div><!-- /.row -->
@@ -741,7 +739,7 @@
 									
 									<div class="author">
 										<div class="author-image">
-											<img src="css/images/temp/jerry.jpg" height="56" width="56" alt="" />
+											<img src="css/images/temp/bertin.png" height="56" width="56" alt="" />
 										</div><!-- /.author-image -->
 										
 										<div class="author-content">
@@ -796,7 +794,7 @@
 											<div class="row">
 												<div class="col-md-6">
 													<div class="form-row">
-														<input type="text" class="field form-control" placeholder="Name" name="fname" id="fname" />
+														<input type="text" class="field form-control" placeholder="First Name" name="fname" id="fname" />
 													</div><!-- /.form-row -->
 												</div><!-- /.col-md-6 -->
 												
@@ -807,18 +805,8 @@
 												</div><!-- /.col-md-6 -->
 											</div><!-- /.row -->
 
-											<div class="row">
-												<div class="col-md-6">
-													<div class="form-row">
-														<input type="text" class="field form-control" placeholder="Phone" name="phone" id="phone" />
-													</div><!-- /.form-row -->
-												</div><!-- /.col-md-6 -->
-												
-												<div class="col-md-6">
-													<div class="form-row">
+											<div class="form-row">
 														<input type="text" class="field form-control" placeholder="Email Address" name="email" id="email" />
-													</div><!-- /.form-row -->
-												</div><!-- /.col-md-6 -->
 											</div><!-- /.row -->
 								
 											<div class="form-row">
@@ -833,7 +821,7 @@
 														<label for="newsletter" class="form-label">
 															<span class="custom-checkbox-fake"></span>
 
-															I wish to receive <span>newsletter</span> emails from Eclipse Scout
+															I wish to receive Scout <span>newsletter</span> emails
 														</label>
 													</div><!-- /.checkbox -->
 												</div><!-- /.form-controls -->
@@ -857,9 +845,52 @@
 		<footer class="footer">
 			<a href="#" class="footer-toggler">show/hide footer</a>
 		
-			<div class="container">
+				<a href="http://www.eclipse.org" class="lnk-footer">Eclipse Home</a>
+			    <a href="http://www.eclipse.org/legal/privacy.php" class="lnk-footer">Privacy Policy</a>
+			    <a href="http://www.eclipse.org/legal/termsofuse.php" class="lnk-footer">Terms of Use</a>
+			    <a href="http://www.eclipse.org/legal/copyright.php" class="lnk-footer">Copyright Agent</a>
+			    <a href="http://www.eclipse.org/legal" class="lnk-footer">Legal</a>
+				
+				<a href="https://twitter.com/EclipseScout" class="btn-social"><i class="fa fa-twitter-square"></i></a>
+				<a href="http://www.bsiag.com/scout" class="btn-social"><i class="fa fa-rss-square"></i></a>
+				<a href="https://plus.google.com/103593107241008270960" class="btn-social"><i class="fa fa-google-plus-square"></i></a>
+				<a href="https://www.facebook.com/EclipseScout" class="btn-social"><i class="fa fa-facebook-square"></i></a>
+				<a href="https://www.youtube.com/user/eclipsescout" class="btn-social"><i class="fa fa-youtube-square"></i></a>
+			<!-- /.container -->
+				<!--
 				<div class="row">
 					<div class="col-sm-2 col-md-2">
+					    <div class="footer-nav">
+					    <a href="#">Eclipse Home</a>
+						</div>
+					</div>
+						
+						
+					<div class="col-sm-2 col-md-2">
+					    <div class="footer-nav">
+					    <a href="#">Privacy Policy</a>
+						</div>
+					</div>
+						
+					<div class="col-sm-2 col-md-2">
+					    <div class="footer-nav">
+					    <a href="#">Terms of Use</a>
+						</div>
+					</div>
+						
+					<div class="col-sm-2 col-md-2">
+					    <div class="footer-nav">
+					    <a href="#">Copyright Agent</a>
+						</div>
+					</div>
+						
+					<div class="col-sm-2 col-md-2">
+					    <div class="footer-nav">
+					    <a href="#">Legal</a>
+						</div>
+					</div>
+					-->	
+					    <!--
 						<h5>Quick Link</h5>
 						
 						<div class="footer-nav">
@@ -896,8 +927,8 @@
 									<a href="#">FAQ</a>
 								</li>
 							</ul>
-						</div><!-- /.footer-nav -->
-					</div><!-- /.col-md-2 -->
+						</div>
+					</div>
 					
 					<div class="col-sm-2 col-md-3">
 						<h5>Community</h5>
@@ -936,8 +967,8 @@
 									<a href="#">Forum</a>
 								</li>
 							</ul>
-						</div><!-- /.footer-nav -->
-					</div><!-- /.col-md-3 -->
+						</div>
+					</div>
 					
 					<div class="col-sm-2 col-md-2">
 						<h5>Eclipse Links</h5>
@@ -976,8 +1007,8 @@
 									<a href="#">Contact Us</a>
 								</li>
 							</ul>
-						</div><!-- /.footer-nav -->
-					</div><!-- /.col-md-2 -->
+						</div>
+					</div>
 					
 					<div class="col-sm-3 col-md-2">
 						<div class="contacts">
@@ -995,13 +1026,14 @@
 								<i class="ico ico-contacts-fax"></i>
 		
 								+1.613.224.5172
-							</p><!-- /.phone -->
-						</div><!-- /.contacts -->
-					</div><!-- /.col-md-2 -->
+							</p>
+						</div>
+					</div>
+					-->
 					
+					<!--
 					<div class="col-sm-2 col-md-2">
 						<div class="footer-socials">
-							<h5>Connected with us</h5>
 						
 							<ul>
 								<li>
@@ -1009,17 +1041,17 @@
 								</li>
 								
 								<li>
-									<a href="https://twitter.com/EclipseScout" class="link-twitter">twitter</a>
+									<a href="https://twitter.com/EclipseScout"><i class="fa fa-twitter-square"></i></a>
 								</li>
 								
 								<li>
 									<a href="http://www.bsiag.com/scout/" class="link-blog">blog</a>
 								</li>
 							</ul>
-						</div><!-- /.footer-socials -->
-					</div><!-- /.col-md-2 -->
-				</div><!-- /.row -->
-			</div><!-- /.container -->
+						</div>
+					</div>
+				</div>
+				-->
 		</footer><!-- /.footer -->
 	</div><!-- /.wrapper -->
 </body>

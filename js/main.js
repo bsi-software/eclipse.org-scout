@@ -135,7 +135,7 @@
 
 			fixedContentPos: false
 		});
-
+		
 		$(".demo-btnX").colorbox({
 			inline:true,
 			// innerWidth: 640,
