@@ -249,8 +249,8 @@
 								</div><!-- /.section-demo-content -->
 											
 								<div class="section-demo-actions">
-									<a href="#" class="btn btn-default demo-btn">Try the Live Demo</a>
-									<a href="#" class="btn btn-default demo-btn">Mobile Version</a>
+									<a href="http://localhost:8082/web" target="_blank" class="btn btn-default demo-btn">Try the Live Demo</a>
+									<a href="http://localhost:8082/mobile" target="_blank" class="btn btn-default demo-btn">Mobile Version</a>
 								</div><!-- /.section-demo-actions -->
 							</div><!-- /.col-md-6 -->
 						</div><!-- /.row -->
@@ -668,22 +668,24 @@
 								
 								<div class="col-sm-4 col-md-4 testimonial">
 									<blockquote>
-										<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It  has roots in a piece.</p>
+										<p>Tools and frameworks, such as Eclipse Scout, can significantly boost the productivity of developers.</p>
 
+										<!--
 										<a href="http://www.bsiag.com/de/referenzen/unsere-kunden/detail/references/eclipse-scout-bei-agro.html">Read More</a>
+										-->
 		
 										<span class="blockquote-triangle"></span>
 									</blockquote>
 									
 									<div class="author">
 										<div class="author-image">
-											<img src="css/images/temp/lee.jpg" height="56" width="56" alt="" />
+											<img src="css/images/temp/mike.png" height="56" width="56" alt="" />
 										</div>
 										
 										<div class="author-content">
-											<p class="author-name">Lee</p>
+											<p class="author-name">Mike Milinkovich</p>
 											
-											<p class="author-position">software architects</p>
+											<p class="author-position">Director Eclipse Foundation</p>
 										</div>
 									</div>
 								</div>

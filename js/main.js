@@ -140,7 +140,7 @@
 			inline:true,
 			// innerWidth: 640,
 			// innerHeight: 455,
-			maxWidth: 700,
+			maxWidth: 800,
 			maxHeight: '90%',
 			width: "90%",
 			height: "90%",
@@ -152,7 +152,7 @@
 			inline:true,
 			// innerWidth: 640,
 			// innerHeight: 455,
-			maxWidth: 700,
+			maxWidth: 800,
 			maxHeight: '90%',
 			width: "90%",
 			height: "90%",
@@ -329,7 +329,7 @@
 	};
 
 	function updateAffix() {
-		$navbar.data('bs.affix').options.offset.top = $wrapper.scrollTop() + $services.offset().top
+		$navbar.data('bs.affix').options.offset.top = $wrapper.scrollTop() + $services.offset().top - 84;
 	};
 
 	function updateMobileNav() {

@@ -71,7 +71,7 @@ ol { list-style-position: inside; }
 /* ==========================================================================
 	#Header
 ========================================================================== */
-.navbar { z-index: 3; position: absolute; top: 0; left: 0; min-height: 0; width: 100%; margin-bottom: 0; padding: 17px 0; border: none; border-radius: 0; }
+.navbar { z-index: 3; position: absolute; top: 0; right: 17px; min-height: 0; width: 100%; margin-bottom: 0; padding: 17px 0; border: none; border-radius: 0; }
 .navbar-default { background-color: transparent; border-color: transparent; }
 .navbar-header { overflow: hidden; }
 .navbar-brand { overflow: hidden; float: left; width: 250px; height: 42px; background: url(images/sprite.png) -242px 0px no-repeat; text-indent: 150%; white-space: nowrap; }
