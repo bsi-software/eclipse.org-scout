@@ -414,14 +414,17 @@ ol { list-style-position: inside; }
 	.nav-mobile { display: block; }
 
 	.is-affixed .nav-mobile > ul { padding-top: 71px; }
-	.navbar { width: 98%; }
+	.navbar { width: 97%; } /* there must be a better solution ... */
 	.navbar.affix { left: 0 !important; }
 
 	.mfp-iframe-holder { padding: 0 20px 0 5px; }
 
 	.header { background: transparent; }
-	.navbar-brand { width: 198px; height: 29px; margin-top: 10px; margin-left: 5px !important; background: url("images/sprite.png") no-repeat scroll -242px -44px rgba(0, 0, 0, 0); float: left; }
-	.navbar-toggle { float: right; margin: 5px 10px 0 0; }
+	.navbar-brand { width: 198px; height: 29px; margin-top: 10px; margin-left: 15px !important; background: url("images/sprite.png") no-repeat scroll -242px -44px;} 
+	
+	.navbar-toggle { float: right; margin: 5px 10px 0 0; border: 2px; }
+	.navbar-toggle .icon-bar { height: 3px; }
+	
 	.navbar-collapse { background: #2a1f1a; }
 	.navbar-nav { float: none; }
 	
