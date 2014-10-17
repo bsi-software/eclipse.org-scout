@@ -249,8 +249,8 @@
 								</div><!-- /.section-demo-content -->
 											
 								<div class="section-demo-actions">
-									<a href="http://localhost:8082/web" target="_blank" class="btn btn-default demo-btn">Try the Live Demo</a>
-									<a href="http://localhost:8082/mobile" target="_blank" class="btn btn-default demo-btn">Mobile Version</a>
+									<a href="http://widgets.eclipse-scout.cloudbees.net/web" target="_blank" class="btn btn-default demo-btn">Try the Live Demo</a>
+									<a href="http://widgets.eclipse-scout.cloudbees.net/mobile" target="_blank" class="btn btn-default demo-btn">Mobile Version</a>
 								</div><!-- /.section-demo-actions -->
 							</div><!-- /.col-md-6 -->
 						</div><!-- /.row -->
