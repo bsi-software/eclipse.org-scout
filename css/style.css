@@ -65,7 +65,7 @@ ol { list-style-position: inside; }
 ========================================================================== */
 .btn { display: inline-block; }
 
-.btn-default { color: #fff; background-color: transparent; margin-right: 5px; border: 1px solid #fff; border-radius: 5px; font-size: 19px; font-weight: 500; }
+.btn-default { color: #fff; background-color: transparent; margin: 5px; margin-right: 5px; border: 1px solid #fff; border-radius: 5px; font-size: 19px; font-weight: 500; }
 .btn-default:hover { background: #fff; border-color: #fff; }
 
 /* ==========================================================================
@@ -76,21 +76,19 @@ ol { list-style-position: inside; }
 .navbar-header { overflow: hidden; }
 .navbar-brand { overflow: hidden; float: left; width: 250px; height: 42px; background: url(images/sprite.png) -242px 0px no-repeat; text-indent: 150%; white-space: nowrap; }
 
-.navbar-default .navbar-nav > li > a { color: #fff; }
-.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus { color: #faa635; background-color: transparent; }
-
 .navbar>.container .navbar-brand { margin-left: 0; }
-.nav > li > a { font-size: 17px; }
+
 .navbar-nav { float: right; }
-.navbar-default .navbar-nav>.open>a,
-.navbar-default .navbar-nav>.open>a:hover,
-.navbar-default .navbar-nav>.open>a:focus { color: #faa635; background-color: transparent; }
+.navbar-default .navbar-nav  li a { color: #fff; }
+.navbar-default .navbar-nav  li a:hover { color: #faa635; }
 
-.nav .open>a,
-.nav .open>a:hover,
-.nav .open>a:focus { background-color: transparent; border-color: transparent; }
+.nav .dropdown:hover { background-color: #fff; display: block; border-top-left-radius: 5px; border-top-right-radius: 5px; }
+.nav .dropdown:hover a { color: #0184a3; }
+.nav .dropdown:hover ul { color: #0184a3; display: block; border: 1px; }
 
-.nav .dropdown:hover ul { display: block; }
+.nav .dropdown a:hover { color: #faa635; }
+.nav .dropdown ul a { color: #0184a3; background-color: #fff; }
+.nav .dropdown ul a:hover { color: #faa635; }
 
 .navbar.affix { position: fixed; background: #fff; }
 .navbar.affix .navbar-nav > li > a { color: #0184a3; }
@@ -145,6 +143,9 @@ ol { list-style-position: inside; }
 .section-demo-list li ~ li { margin-top: 5px; }
 .section-demo-actions { margin-top: 17px; }
 .section-demo-actions .btn-default { padding: 7px 16px 9px 19px; border-width: 2px; } 
+
+/* .section-demo-actions a { width: 600 } */
+.demo-btn { width: 200px }
 
 /* ==========================================================================
 	#Section Download
@@ -289,7 +290,7 @@ ol { list-style-position: inside; }
 .list-partners li { float: left; }
 .list-partners li  ~ li { margin-left: 45px; }
 
-.testimonial blockquote { position: relative; min-height: 167px; margin-bottom: 29px; padding: 64px 35px 25px; background: #fff url(images/blockquote.png) 36px 19px no-repeat; border: 1px solid #dedede; border-radius: 2px; font-size: 19px; color: #989898; font-family: "Open Sans Italic", sans-serif; }
+.testimonial blockquote { position: relative; min-height: 220px; margin-bottom: 29px; padding: 64px 35px 25px; background: #fff url(images/blockquote.png) 36px 19px no-repeat; border: 1px solid #dedede; border-radius: 2px; font-size: 19px; color: #989898; font-family: "Open Sans Italic", sans-serif; }
 .testimonial blockquote a { position: relative; bottom: 0; }
 .testimonial .blockquote-triangle { position: absolute; left: 57px; bottom: -20px; width: 21px; height: 20px; background: url(images/blockquote-triangle.png) 0 0 no-repeat; }
 
@@ -386,14 +387,14 @@ ol { list-style-position: inside; }
 	.benefit-entry { padding-right: 13px; padding-left: 13px; }
 	.section-testimonials .section-head h3 { font-size: 43px; }
 	.list-partners li ~ li { margin-left:20px; } 
-	.testimonial blockquote { min-height: 201px; }
+	/* .testimonial blockquote { min-height: 201px; } */
 	.contacts .phone { font-size: 16px; }
 	.footer h5 { font-size: 17px; }
 }
 
 @media (max-width: 992px) {
 	.benefit-entry { padding-right: 0; padding-left: 0; }
-	.testimonial blockquote { min-height: 262px; }
+	/* .testimonial blockquote { min-height: 262px; } */
 
 	.list-partners { text-align: center; }
 	.list-partners li { float: none; display: inline-block; padding: 10px 0; }

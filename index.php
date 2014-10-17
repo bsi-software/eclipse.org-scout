@@ -626,7 +626,7 @@
 									<blockquote>
 										<p>We were convinced by Scout's architecture, the short training times and the many active Scout committers. </p>
 
-										<a href="http://www.bsiag.com/de/referenzen/unsere-kunden/detail/references/eclipse-scout-bei-agro.html">Read More</a>
+										<a href="http://www.bsiag.com/de/referenzen/unsere-kunden/detail/references/eclipse-scout-bei-agro.html" target="_blank">Read More</a>
 		
 										<span class="blockquote-triangle"></span>
 									</blockquote>
@@ -648,8 +648,6 @@
 									<blockquote>
 										<p>Everything’s possible in Scout.</p>
 
-										<a href="http://www.bsiag.com/de/referenzen/unsere-kunden/detail/references/eclipse-scout-bei-agro.html">Read More</a>
-		
 										<span class="blockquote-triangle"></span>
 									</blockquote>
 									
