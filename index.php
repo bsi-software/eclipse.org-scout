@@ -550,7 +550,7 @@
 							</div><!-- /.col-md-10 col-md-offset-1 -->
 							
 							<div class="section-body">
-								<div class="col-sm-offset-2 col-md-offset-2 col-sm-4 col-md-4 testimonial">
+								<div class="col-sm-4 col-md-4 testimonial">
 									<blockquote>
 										<p>We were convinced by Scout's architecture, the short training times and the many active Scout committers. </p>
 
@@ -574,10 +574,9 @@
 									</div><!-- /.author -->
 								</div><!-- /.col-md-4 -->
 							
-							    <!--
 								<div class="col-sm-4 col-md-4 testimonial">
 									<blockquote>
-										<p>Everything is possible in Scout.</p>
+										<p>Everything you need in a business application is possible in Scout.</p>
 
 										<span class="blockquote-triangle"></span>
 									</blockquote>
@@ -594,7 +593,6 @@
 										</div>
 									</div>
 								</div> 
-								-->
 								
 								<div class="col-sm-4 col-md-4 testimonial">
 									<blockquote>

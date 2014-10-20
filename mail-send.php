@@ -31,14 +31,18 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 		include('email-template.php');
 		$email_message = ob_get_clean();
 		$subject = 'Scout Homepage Query';
-		$mail_content = $email_message;
+		$mail_content = 'sender:\r\n';
+		$mail_content .= 'first name: ' . $first_name . "\r\n";
+		$mail_content .= 'last name: ' . $last_name . "\r\n";
+		$mail_content .= 'email: ' . $email . "\r\n";
+		$mail_content .= 'message: \r\n';
+		$mail_content .= $email_message;
 
 		// To send HTML mail, the Content-type header must be set
 		$headers = 'MIME-Version: 1.0' . "\r\n";
 		$headers .= 'Content-type: text/html; charset=utf-8' . "\r\n";
-
-		$headers .= 'From: ' .$first_name . ' ' . $last_name . " <" . $email . ">\r\n" .
-			'Reply-To: ' . $email . "\r\n" .
+		$headers .= 'From: no reply <no-reply@eclipse.org>\r\n" .
+			'Reply-To: no-reply@eclipse.org\r\n" .
 			'X-Mailer: PHP/' . phpversion();
 
 		$result = @mail($message_recepient, $subject, $mail_content, $headers);
