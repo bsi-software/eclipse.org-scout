@@ -24,8 +24,8 @@
         		<a href="#">News</a>
 
         		<ul>
-		            <li><a href="https://twitter.com/EclipseScout">Twitter</a></li>
-		            <li><a href="http://www.bsiag.com/scout">Blog</a></li>
+		            <li><a target="_blank" href="https://twitter.com/EclipseScout">Twitter</a></li>
+		            <li><a target="_blank" href="http://www.bsiag.com/scout">Blog</a></li>
         		</ul>
         	</li>
         
@@ -33,10 +33,10 @@
         		<a href="#">Documentation</a>
 
         		<ul>
-		            <li><a href="https://www.youtube.com/user/eclipsescout">Video Tutorials</a></li>
-		            <li><a href="https://wiki.eclipse.org/Scout/Tutorial">Wiki Tutorials</a></li>
-		            <li><a href="http://tools.bsiag.com/scoutbook/4.0/2014-10-13_22-06-54/html/book.html">Scout Book</a></li>
-		            <li><a href="https://wiki.eclipse.org/Scout">Wiki</a></li>
+		            <li><a target="_blank" href="https://www.youtube.com/user/eclipsescout">Video Tutorials</a></li>
+		            <li><a target="_blank" href="https://wiki.eclipse.org/Scout/Tutorial">Wiki Tutorials</a></li>
+		            <li><a target="_blank" href="http://tools.bsiag.com/scoutbook/4.0/2014-10-13_22-06-54/html/book.html">Scout Book</a></li>
+		            <li><a target="_blank" href="https://wiki.eclipse.org/Scout">Wiki</a></li>
         		</ul>
         	</li>
         
@@ -44,10 +44,10 @@
         		<a href="#">Community</a>
           
         		<ul>
-		            <li><a href="http://www.eclipse.org/forums/index.php?t=thread&frm_id=174">Ask Questions</a></li>
-		            <li><a href="https://bugs.eclipse.org/bugs/buglist.cgi?bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&bug_status=RESOLVED&bug_status=VERIFIED&columnlist=bug_id%2Cbug_severity%2Cpriority%2Ctarget_milestone%2Cbug_status%2Cresolution%2Ccomponent%2Cassigned_to%2Cshort_desc&list_id=10272285&product=Scout&query_format=advanced">
+		            <li><a target="_blank" href="http://www.eclipse.org/forums/index.php?t=thread&frm_id=174">Ask Questions</a></li>
+		            <li><a target="_blank" href="https://bugs.eclipse.org/bugs/buglist.cgi?bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&bug_status=RESOLVED&bug_status=VERIFIED&columnlist=bug_id%2Cbug_severity%2Cpriority%2Ctarget_milestone%2Cbug_status%2Cresolution%2Ccomponent%2Cassigned_to%2Cshort_desc&list_id=10272285&product=Scout&query_format=advanced">
 						View open Bugs</a></li>
-		            <li><a href="https://wiki.eclipse.org/Scout/Contribution">Contribute</a></li>
+		            <li><a target="_blank" href="https://wiki.eclipse.org/Scout/Contribution">Contribute</a></li>
         		</ul>
         	</li>
 
@@ -55,7 +55,7 @@
 	        	<a href="#">Support</a>
 
 	        	<ul>
-		            <li><a href="https://www.bsiag.com/en/technology/eclipse-scout.html">Professional Services</a></li>
+		            <li><a target="_blank" href="https://www.bsiag.com/en/technology/eclipse-scout.html">Professional Services</a></li>
 		            <li><a href="#contact-us" class="slide-to-section">Contact us</a></li>
         		</ul>
     	    </li>
@@ -84,8 +84,8 @@
 		        		<a href="#" >News</a>
 	
 						<ul class="dropdown-menu" role="menu">
-		            		<li><a href="https://twitter.com/EclipseScout">Twitter</a></li>
-		            		<li><a href="http://www.bsiag.com/scout">Blog</a></li>
+		            		<li><a target="_blank" href="https://twitter.com/EclipseScout">Twitter</a></li>
+		            		<li><a target="_blank" href="http://www.bsiag.com/scout">Blog</a></li>
 		        		</ul>
 		        	</li>
 		        
@@ -93,10 +93,10 @@
 		        		<a href="#" >Documentation</a>
 	
 		        		<ul class="dropdown-menu" role="menu">
-		            		<li><a href="https://www.youtube.com/user/eclipsescout">Video Tutorials</a></li>
-		            		<li><a href="https://wiki.eclipse.org/Scout/Tutorial">Wiki Tutorials</a></li>
-		            		<li><a href="http://tools.bsiag.com/scoutbook/4.0/2014-10-13_22-06-54/html/book.html">Scout Book</a></li>
-		            		<li><a href="https://wiki.eclipse.org/Scout">Wiki</a></li>
+		            		<li><a target="_blank" href="https://www.youtube.com/user/eclipsescout">Video Tutorials</a></li>
+		            		<li><a target="_blank" href="https://wiki.eclipse.org/Scout/Tutorial">Wiki Tutorials</a></li>
+		            		<li><a target="_blank" href="http://tools.bsiag.com/scoutbook/4.0/2014-10-13_22-06-54/html/book.html">Scout Book</a></li>
+		            		<li><a target="_blank" href="https://wiki.eclipse.org/Scout">Wiki</a></li>
 		        		</ul>
 		        	</li>
 		        
@@ -104,10 +104,10 @@
 		        		<a href="#" >Community</a>
 		          
 		        		<ul class="dropdown-menu" role="menu">
-		            		<li><a href="http://www.eclipse.org/forums/index.php?t=thread&frm_id=174">Ask Questions</a></li>
-		            		<li><a href="https://bugs.eclipse.org/bugs/buglist.cgi?bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&bug_status=RESOLVED&bug_status=VERIFIED&columnlist=bug_id%2Cbug_severity%2Cpriority%2Ctarget_milestone%2Cbug_status%2Cresolution%2Ccomponent%2Cassigned_to%2Cshort_desc&list_id=10272285&product=Scout&query_format=advanced">
+		            		<li><a target="_blank" href="http://www.eclipse.org/forums/index.php?t=thread&frm_id=174">Ask Questions</a></li>
+		            		<li><a target="_blank" href="https://bugs.eclipse.org/bugs/buglist.cgi?bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&bug_status=RESOLVED&bug_status=VERIFIED&columnlist=bug_id%2Cbug_severity%2Cpriority%2Ctarget_milestone%2Cbug_status%2Cresolution%2Ccomponent%2Cassigned_to%2Cshort_desc&list_id=10272285&product=Scout&query_format=advanced">
 								View open Bugs</a></li>
-		            		<li><a href="https://wiki.eclipse.org/Scout/Contribution">Contribute</a></li>
+		            		<li><a target="_blank" href="https://wiki.eclipse.org/Scout/Contribution">Contribute</a></li>
 		        		</ul>
 		        	</li>
 	
@@ -115,7 +115,7 @@
 			        	<a href="#" >Support</a>
 	
 			        	<ul class="dropdown-menu" role="menu">
-		            		<li><a href="https://www.bsiag.com/en/technology/eclipse-scout.html">Professional Services</a></li>
+		            		<li><a target="_blank" href="https://www.bsiag.com/en/technology/eclipse-scout.html">Professional Services</a></li>
 		            		<li><a href="#contact-us" class="slide-to-section">Contact us</a></li>
 		        		</ul>
 		    	    </li>
@@ -213,9 +213,9 @@
 							
 							<div class="col-sm-6 col-md-5">
 								<div class="section-demo-content">
-									<h2>The Scout Widget Demo</h2>
+									<h2>The Scout Demo</h2>
 									
-									<h4>A Client only Application</h4>
+									<h4>A Client-only Application</h4>
 											
 									<p>Play with the Scout demo application and explore Scout forms, widgets and pages</p>
 											
@@ -249,8 +249,8 @@
 								</div><!-- /.section-demo-content -->
 											
 								<div class="section-demo-actions">
-									<a href="http://widgets.eclipse-scout.cloudbees.net/web" target="_blank" class="btn btn-default demo-btn">Try the Live Demo</a>
-									<a href="http://widgets.eclipse-scout.cloudbees.net/mobile" target="_blank" class="btn btn-default demo-btn">Mobile Version</a>
+									<a target="_blank" href="http://widgets.eclipse-scout.cloudbees.net/web" class="btn btn-default demo-btn">Try the Live Demo</a>
+									<a target="_blank" href="http://widgets.eclipse-scout.cloudbees.net/mobile" class="btn btn-default demo-btn">Mobile Version</a>
 								</div><!-- /.section-demo-actions -->
 							</div><!-- /.col-md-6 -->
 						</div><!-- /.row -->
@@ -288,7 +288,7 @@
 								</div><!-- /.section-download-content -->
 								
 								<div class="section-download-actions">
-									<a href="#" class="btn btn-default btn-windows">Download Instructions</a>
+									<a href="#" class="btn btn-default btn-windows">Follow the Instructions</a>
 									<!--
 									<a href="#" class="btn btn-default btn-mac">Download For Mac</a>
 
@@ -318,78 +318,6 @@
 									<h4>Your first Scout Application</h4>
 									
 									<p>Create a initial client server application, add widgets on the client and some business logic on the server side.</p>
-									
-									<!--
-									<div class="row">
-										<div class="col-md-6">
-											<ul class="section-tutorials-list">
-												<li>
-													<a href="#">
-														<span>Get started with a simple 'Hello World'</span>
-													</a>
-												</li>
-												
-												<li>
-													<a href="#">
-														<span>Create a Scout application</span>
-													</a>
-												</li>
-												
-												<li>
-													<a href="#">
-														<span>Deploy a Scout application</span>
-													</a>
-												</li>
-												
-												<li>
-													<a href="#">
-														<span>Permissions: Authentication and Authorization</span>
-													</a>
-												</li>
-												
-												<li>
-													<a href="#">
-														<span>Table Field</span>
-													</a>
-												</li>
-											</ul>
-										</div>
-										
-										<div class="col-md-6">
-											<ul class="section-tutorials-list">
-												<li>
-													<a href="#">
-														<span>Webservices with JAX-WS</span>
-													</a>
-												</li>
-												
-												<li>
-													<a href="#">
-														<span>SVG Field</span>
-													</a>
-												</li>
-												
-												<li>
-													<a href="#">
-														<span>Rayo Look and Feel for Swing</span>
-													</a>
-												</li>
-												
-												<li>
-													<a href="#">
-														<span>Add JDBC Drivers for Eclipse Scout</span>
-													</a>
-												</li>
-												
-												<li>
-													<a href="#">
-														<span>Modular Applications</span>
-													</a>
-												</li>
-											</ul>
-										</div>
-									</div>
-									-->
 								</div><!-- /.section-tutorials-content -->
 								
 								<div class="section-tutorials-actions">
@@ -404,7 +332,7 @@
 					<div class="container">
 						<div class="row">
 							<div class="section-head">
-								<h3>Benefits of the <span>Scout</span> Framework</h3>
+								<h3>Benefits of the Scout Framework</h3>
 							</div><!-- /.section-head -->
 						
 							<div class="benefit">
@@ -506,7 +434,7 @@
 					<div class="container">
 						<div class="row">
 							<div class="section-head">
-								<h3>Features of the <span>Scout</span> Framework</h3>
+								<h3>Features of the Scout Framework</h3>
 							</div><!-- /.section-head -->
 						</div><!-- /.row -->
 					</div><!-- /.container -->
@@ -617,16 +545,18 @@
 						<div class="row">
 							<div class="col-md-10 col-md-offset-1">
 								<div class="section-head">
-									<h3>We’re <span>trusted</span> by thousands of <span>happy users</span></h3>
+									<h3>We’re trusted by thousands of happy users</h3>
 								</div><!-- /.section-head -->
 							</div><!-- /.col-md-10 col-md-offset-1 -->
 							
 							<div class="section-body">
-								<div class="col-sm-4 col-md-4 testimonial">
+								<div class="col-sm-offset-2 col-md-offset-2 col-sm-4 col-md-4 testimonial">
 									<blockquote>
 										<p>We were convinced by Scout's architecture, the short training times and the many active Scout committers. </p>
 
+										<!-- re-enable once other testimonials are ready
 										<a href="http://www.bsiag.com/de/referenzen/unsere-kunden/detail/references/eclipse-scout-bei-agro.html" target="_blank">Read More</a>
+										-->
 		
 										<span class="blockquote-triangle"></span>
 									</blockquote>
@@ -639,14 +569,15 @@
 										<div class="author-content">
 											<p class="author-name">Nils Israel</p><!-- /.author-name -->
 											
-											<p class="author-position">software developer</p>
+											<p class="author-position">Software Developer</p>
 										</div><!-- /.author-content -->
 									</div><!-- /.author -->
 								</div><!-- /.col-md-4 -->
 							
+							    <!--
 								<div class="col-sm-4 col-md-4 testimonial">
 									<blockquote>
-										<p>Everything’s possible in Scout.</p>
+										<p>Everything is possible in Scout.</p>
 
 										<span class="blockquote-triangle"></span>
 									</blockquote>
@@ -654,15 +585,16 @@
 									<div class="author">
 										<div class="author-image">
 											<img src="css/images/temp/bertin.png" height="56" width="56" alt="" />
-										</div><!-- /.author-image -->
+										</div>
 										
 										<div class="author-content">
-											<p class="author-name">Bertin Kiekebosch</p><!-- /.author-name -->
+											<p class="author-name">Bertin Kiekebosch</p>
 											
-											<p class="author-position">IT manager</p>
-										</div><!-- /.author-content -->
-									</div><!-- /.author -->
-								</div><!-- /.col-md-4 -->
+											<p class="author-position">IT Manager</p>
+										</div>
+									</div>
+								</div> 
+								-->
 								
 								<div class="col-sm-4 col-md-4 testimonial">
 									<blockquote>
@@ -699,7 +631,7 @@
 								<div class="form-contact">
 									<form action="mail-send.php" method="post">
 										<div class="form-head">
-											<h3>Ask a <span>Question</span></h3>
+											<h3>Ask a Question</h3>
 								
 											<p>We can help. Tell us about your project and we'll get in touch.</p>
 											<p class="form-success" id="scroll"></p><!-- /.form-errors -->
@@ -737,7 +669,7 @@
 														<label for="newsletter" class="form-label">
 															<span class="custom-checkbox-fake"></span>
 
-															I wish to receive Scout <span>newsletter</span> emails
+															I wish to receive the quarterly Scout NEWSLETTER
 														</label>
 													</div><!-- /.checkbox -->
 												</div><!-- /.form-controls -->
@@ -745,9 +677,9 @@
 										</div><!-- /.form-body -->
 										
 										<div class="form-actions">
-											<input type="submit" class="form-btn form-btn-orange" />
+											<input class="form-btn btn-default" type="submit" value="Submit" />
 											
-											<input type="reset" class="form-btn form-btn-blue" />
+											<!-- <input type="reset" class="form-btn form-btn-blue" /> -->
 										</div><!-- /.form-actions -->
 									</form>
 								</div><!-- /.form-contact -->
@@ -761,214 +693,30 @@
 		<footer class="footer">
 			<a href="#" class="footer-toggler">show/hide footer</a>
 		
-				<a href="http://www.eclipse.org" class="lnk-footer">Eclipse Home</a>
-			    <a href="http://www.eclipse.org/legal/privacy.php" class="lnk-footer">Privacy Policy</a>
-			    <a href="http://www.eclipse.org/legal/termsofuse.php" class="lnk-footer">Terms of Use</a>
-			    <a href="http://www.eclipse.org/legal/copyright.php" class="lnk-footer">Copyright Agent</a>
-			    <a href="http://www.eclipse.org/legal" class="lnk-footer">Legal</a>
+				<a target="_blank" href="http://www.eclipse.org" class="lnk-footer">Eclipse Home</a>
+			    <a target="_blank" href="http://www.eclipse.org/legal/privacy.php" class="lnk-footer">Privacy Policy</a>
+			    <a target="_blank" href="http://www.eclipse.org/legal/termsofuse.php" class="lnk-footer">Terms of Use</a>
+			    <a target="_blank" href="http://www.eclipse.org/legal/copyright.php" class="lnk-footer">Copyright Agent</a>
+			    <a target="_blank" href="http://www.eclipse.org/legal" class="lnk-footer">Legal</a>
 				
-				<a href="https://twitter.com/EclipseScout" class="btn-social"><i class="fa fa-twitter-square"></i></a>
-				<a href="http://www.bsiag.com/scout" class="btn-social"><i class="fa fa-rss-square"></i></a>
-				<a href="https://plus.google.com/103593107241008270960" class="btn-social"><i class="fa fa-google-plus-square"></i></a>
-				<a href="https://www.facebook.com/EclipseScout" class="btn-social"><i class="fa fa-facebook-square"></i></a>
-				<a href="https://www.youtube.com/user/eclipsescout" class="btn-social"><i class="fa fa-youtube-square"></i></a>
-			<!-- /.container -->
-				<!--
-				<div class="row">
-					<div class="col-sm-2 col-md-2">
-					    <div class="footer-nav">
-					    <a href="#">Eclipse Home</a>
-						</div>
-					</div>
-						
-						
-					<div class="col-sm-2 col-md-2">
-					    <div class="footer-nav">
-					    <a href="#">Privacy Policy</a>
-						</div>
-					</div>
-						
-					<div class="col-sm-2 col-md-2">
-					    <div class="footer-nav">
-					    <a href="#">Terms of Use</a>
-						</div>
-					</div>
-						
-					<div class="col-sm-2 col-md-2">
-					    <div class="footer-nav">
-					    <a href="#">Copyright Agent</a>
-						</div>
-					</div>
-						
-					<div class="col-sm-2 col-md-2">
-					    <div class="footer-nav">
-					    <a href="#">Legal</a>
-						</div>
-					</div>
-					-->	
-					    <!--
-						<h5>Quick Link</h5>
-						
-						<div class="footer-nav">
-							<ul>
-								<li>
-									<a href="#">Documentation</a>
-								</li>
-								
-								<li>
-									<a href="#">Download</a>
-								</li>
-								
-								<li>
-									<a href="#">Community</a>
-								</li>
-								
-								<li>
-									<a href="#">Services</a>
-								</li>
-								
-								<li>
-									<a href="#">Training</a>
-								</li>
-								
-								<li>
-									<a href="#">Consultin</a>
-								</li>
-								
-								<li>
-									<a href="#">Support</a>
-								</li>
-								
-								<li>
-									<a href="#">FAQ</a>
-								</li>
-							</ul>
-						</div>
-					</div>
-					
-					<div class="col-sm-2 col-md-3">
-						<h5>Community</h5>
-						
-						<div class="footer-nav">
-							<ul>
-								<li>
-									<a href="#">Video Tutorial</a>
-								</li>
-								
-								<li>
-									<a href="#">Scout Book</a>
-								</li>
-								
-								<li>
-									<a href="#">Wiki Tutorials</a>
-								</li>
-								
-								<li>
-									<a href="#">Scout API</a>
-								</li>
-								
-								<li>
-									<a href="#">Complete Package</a>
-								</li>
-								
-								<li>
-									<a href="#">Install Scout in the Eclipse IDE</a>
-								</li>
-								
-								<li>
-									<a href="#">Source Code</a>
-								</li>
-								
-								<li>
-									<a href="#">Forum</a>
-								</li>
-							</ul>
-						</div>
-					</div>
-					
-					<div class="col-sm-2 col-md-2">
-						<h5>Eclipse Links</h5>
-						
-						<div class="footer-nav">
-							<ul>
-								<li>
-									<a href="#">Privacy Policy</a>
-								</li>
-								
-								<li>
-									<a href="#">Eclipse</a>
-								</li>
-								
-								<li>
-									<a href="#">Terms of Use</a>
-								</li>
-								
-								<li>
-									<a href="#">Copyright Agent</a>
-								</li>
-								
-								<li>
-									<a href="#">Legal</a>
-								</li>
-								
-								<li>
-									<a href="#">Releases</a>
-								</li>
-								
-								<li>
-									<a href="#">About us</a>
-								</li>
-								
-								<li>
-									<a href="#">Contact Us</a>
-								</li>
-							</ul>
-						</div>
-					</div>
-					
-					<div class="col-sm-3 col-md-2">
-						<div class="contacts">
-							<h5>Contact us</h5>
-									
-							<p>Eclipse Foundation, Inc. <br /> 102 Centrepointe Drive <br /> Ottawa, Ontario, <br /> Canada, K2G 6B1 </p>
-		
-							<p class="phone">
-								<i class="ico ico-contacts-phone"></i> 
-		
-								+1.613.224.9461 
-							</p>
-
-							<p class="phone">
-								<i class="ico ico-contacts-fax"></i>
-		
-								+1.613.224.5172
-							</p>
-						</div>
-					</div>
-					-->
-					
-					<!--
-					<div class="col-sm-2 col-md-2">
-						<div class="footer-socials">
-						
-							<ul>
-								<li>
-									<a href="#" class="link-facebok">facebok</a>
-								</li>
-								
-								<li>
-									<a href="https://twitter.com/EclipseScout"><i class="fa fa-twitter-square"></i></a>
-								</li>
-								
-								<li>
-									<a href="http://www.bsiag.com/scout/" class="link-blog">blog</a>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-				-->
+				<a target="_blank" href="https://twitter.com/EclipseScout" class="btn-social"><i class="fa fa-twitter-square"></i></a>
+				<a target="_blank" href="http://www.bsiag.com/scout" class="btn-social"><i class="fa fa-rss-square"></i></a>
+				<a target="_blank" href="https://plus.google.com/103593107241008270960" class="btn-social"><i class="fa fa-google-plus-square"></i></a>
+				<a target="_blank" href="https://www.facebook.com/EclipseScout" class="btn-social"><i class="fa fa-facebook-square"></i></a>
+				<a target="_blank" href="https://www.youtube.com/user/eclipsescout" class="btn-social"><i class="fa fa-youtube-square"></i></a>
 		</footer><!-- /.footer -->
+		
+        <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-29181496-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+        </script>		
 	</div><!-- /.wrapper -->
 </body>
 </html>

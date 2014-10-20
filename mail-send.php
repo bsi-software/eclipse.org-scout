@@ -1,5 +1,5 @@
 <?php 
-$message_recepient = "example@example.com";
+$message_recepient = "scout@bsiag.com";
 
 $error_msgs = array();
 $form_sent = false;
@@ -30,7 +30,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 		ob_start();
 		include('email-template.php');
 		$email_message = ob_get_clean();
-		$subject = 'Contact Form Submission';
+		$subject = 'Scout Homepage Query';
 		$mail_content = $email_message;
 
 		// To send HTML mail, the Content-type header must be set
