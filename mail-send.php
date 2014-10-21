@@ -31,12 +31,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 		include('email-template.php');
 		$email_message = ob_get_clean();
 		$subject = 'Scout Homepage Query';
-		$mail_content = 'sender:\r\n';
-		$mail_content .= 'first name: ' . $first_name . "\r\n";
-		$mail_content .= 'last name: ' . $last_name . "\r\n";
-		$mail_content .= 'email: ' . $email . "\r\n";
-		$mail_content .= 'message: \r\n';
-		$mail_content .= $email_message;
+		$mail_content = $email_message;
 
 		// To send HTML mail, the Content-type header must be set
 		$headers = 'MIME-Version: 1.0' . "\r\n";
