@@ -44,7 +44,7 @@
         		<a href="#">Community</a>
           
         		<ul>
-		            <li><a target="_blank" href="http://www.eclipse.org/forums/index.php?t=thread&frm_id=174">Ask Questions</a></li>
+		            <li><a target="_blank" href="http://www.eclipse.org/forums/index.php?t=thread&frm_id=174">Forum</a></li>
 		            <li><a target="_blank" href="https://bugs.eclipse.org/bugs/buglist.cgi?bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&bug_status=RESOLVED&bug_status=VERIFIED&columnlist=bug_id%2Cbug_severity%2Cpriority%2Ctarget_milestone%2Cbug_status%2Cresolution%2Ccomponent%2Cassigned_to%2Cshort_desc&list_id=10272285&product=Scout&query_format=advanced">
 						View open Bugs</a></li>
 		            <li><a target="_blank" href="https://wiki.eclipse.org/Scout/Contribution">Contribute</a></li>
@@ -55,8 +55,9 @@
 	        	<a href="#">Support</a>
 
 	        	<ul>
+		            <li><a target="_blank" href="http://www.eclipse.org/forums/index.php?t=thread&frm_id=174">Community Forum</a></li>
 		            <li><a target="_blank" href="https://www.bsiag.com/en/technology/eclipse-scout.html">Professional Services</a></li>
-		            <li><a href="#contact-us" class="slide-to-section">Contact us</a></li>
+		            <!-- <li><a href="#contact-us" class="slide-to-section">Contact us</a></li> -->
         		</ul>
     	    </li>
     	</ul>
@@ -104,7 +105,7 @@
 		        		<a href="#" >Community</a>
 		          
 		        		<ul class="dropdown-menu" role="menu">
-		            		<li><a target="_blank" href="http://www.eclipse.org/forums/index.php?t=thread&frm_id=174">Ask Questions</a></li>
+		            		<li><a target="_blank" href="http://www.eclipse.org/forums/index.php?t=thread&frm_id=174">Forum</a></li>
 		            		<li><a target="_blank" href="https://bugs.eclipse.org/bugs/buglist.cgi?bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&bug_status=RESOLVED&bug_status=VERIFIED&columnlist=bug_id%2Cbug_severity%2Cpriority%2Ctarget_milestone%2Cbug_status%2Cresolution%2Ccomponent%2Cassigned_to%2Cshort_desc&list_id=10272285&product=Scout&query_format=advanced">
 								View open Bugs</a></li>
 		            		<li><a target="_blank" href="https://wiki.eclipse.org/Scout/Contribution">Contribute</a></li>
@@ -115,8 +116,9 @@
 			        	<a href="#" >Support</a>
 	
 			        	<ul class="dropdown-menu" role="menu">
+							<li><a target="_blank" href="http://www.eclipse.org/forums/index.php?t=thread&frm_id=174">Community Forum</a></li>
 		            		<li><a target="_blank" href="https://www.bsiag.com/en/technology/eclipse-scout.html">Professional Services</a></li>
-		            		<li><a href="#contact-us" class="slide-to-section">Contact us</a></li>
+		            		<!-- <li><a href="#contact-us" class="slide-to-section">Contact us</a></li> -->
 		        		</ul>
 		    	    </li>
 		    	</ul>
@@ -676,8 +678,6 @@
 										
 										<div class="form-actions">
 											<input class="form-btn btn-default" type="submit" value="Submit" />
-											
-											<!-- <input type="reset" class="form-btn form-btn-blue" /> -->
 										</div><!-- /.form-actions -->
 									</form>
 								</div><!-- /.form-contact -->
