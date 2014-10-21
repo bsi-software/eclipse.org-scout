@@ -218,34 +218,6 @@
 									<h4>A Client-only Application</h4>
 											
 									<p>Play with the Scout demo application and explore Scout forms, widgets and pages</p>
-											
-									<!--
-									<div class="row">
-										<div class="col-md-5 section-demo-list">
-											<p>What’s in the Demo?</p>
-											
-											<ul>
-												<li>Example Forms and Pages</li>
-												
-												<li>20 UI Widgets</li>
-												
-												<li>Client only application</li>
-											</ul>
-										</div>
-										
-										<div class="col-md-7 section-demo-list">
-											<p>Scout also includes</p>
-											
-											<ul>
-												<li>Client server architecture</li>
-												
-												<li>Authentication and authorization</li>
-												
-												<li>And much more</li>
-											</ul>
-										</div>
-									</div>
-									-->
 								</div><!-- /.section-demo-content -->
 											
 								<div class="section-demo-actions">
@@ -274,26 +246,10 @@
 									<h4>Eclipse for Scout Developers</h4>
 								
 									<p>The easiest way to download Eclipse Scout is to get the packaged distribution from the Eclipse download page.</p>
-								
-									<!--
-									<div class="checkbox custom-checkbox">
-										<input type="checkbox" name="download-trigger" id="download-trigger" />
-										
-										<label for="download-trigger" class="form-label">
-									    	<span class="custom-checkbox-fake"></span>
-											
-											Show other Version
-										</label>
-									</div> --> <!-- /.checkbox -->
 								</div><!-- /.section-download-content -->
 								
 								<div class="section-download-actions">
-									<a href="#" class="btn btn-default btn-windows">Follow the Instructions</a>
-									<!--
-									<a href="#" class="btn btn-default btn-mac">Download For Mac</a>
-
-									<a href="#" class="btn btn-default btn-linux">Download For Linux</a>
-									-->
+									<a href="scout_install.html" class="btn btn-default btn-windows">Follow the Instructions</a>
 								</div><!-- /.section-download-actions -->
 							</div><!-- /.col-md-6 -->
 						</div><!-- /.row -->
@@ -321,7 +277,7 @@
 								</div><!-- /.section-tutorials-content -->
 								
 								<div class="section-tutorials-actions">
-									<a href="#" class="btn btn-default btn-helloworld">Do the "Hello World!"</a>
+									<a href="scout_helloworld.html" class="btn btn-default btn-helloworld">Do the "Hello World!"</a>
 								</div><!-- /.section-tutorials-actions -->
 							</div><!-- /.col-md-5 -->
 						</div><!-- /.row -->

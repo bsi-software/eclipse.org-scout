@@ -137,28 +137,17 @@
 		});
 		
 		$(".btn-windows").colorbox({
-			inline:true,
-			// innerWidth: 640,
-			// innerHeight: 455,
 			maxWidth: 800,
 			maxHeight: '90%',
 			width: "90%",
-			height: "90%",
-			iframe:true,
-			href:"scout_install.html"
+			height: "90%"
 		});
 		
 		$(".btn-helloworld").colorbox({
-			inline:true,
-			// innerWidth: 640,
-			// innerHeight: 455,
 			maxWidth: 800,
 			maxHeight: '90%',
 			width: "90%",
-			height: "90%",
-			// href:".section-demo"
-			iframe:true,
-			href:"scout_helloworld.html"
+			height: "90%"
 		});
 
 		// Section Download - Buttons Functionality

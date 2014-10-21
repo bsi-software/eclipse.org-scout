@@ -167,6 +167,8 @@ ol { list-style-position: inside; }
 .section-download .section-triangle-top { top: 0; background: url(images/ico-blue.png) 0 0 no-repeat; }
 .section-download .section-triangle-bottom { bottom: -16px; background: url(images/ico-orange.png) 0 0 no-repeat; }
 
+#cboxLoadedContent { padding: 15px; }
+
       /**
        * Fade-zoom animation for first dialog
        */
