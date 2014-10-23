@@ -37,7 +37,7 @@ There is new submission from the <a href="//<?php echo $_SERVER['HTTP_HOST'] . $
 		<td>
 			<?php 
 			$answer = '';
-			if ($has_newsletter == 'newsletter') {
+			if ($has_newsletter == 'YES') {
 				$answer = 'yes';
 			} else {
 				$answer = 'no';

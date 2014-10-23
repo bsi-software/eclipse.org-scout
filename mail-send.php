@@ -11,7 +11,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 	$email = !empty($_POST['email']) ? $_POST['email'] : '';
 	$phone = !empty($_POST['phone']) ? $_POST['phone'] : '';
 	$message = !empty($_POST['message']) ? $_POST['message'] : '';
-	$has_newsletter = !empty($_POST['newsletter']) ? $_POST['newsletter'] : '';
+	$has_newsletter = !empty($_POST['newsletter']) ? 'YES' : '';
 
 
 	if(strlen($first_name) < 2) {
