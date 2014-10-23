@@ -139,7 +139,7 @@
 							<div class="intro-content">
 								<h1>Eclipse Scout</h1>
 							
-								<p>Future Proof Bussiness Applications</p>
+								<p>Future Proof Business Applications</p>
 							</div><!-- /.intro-content -->
 							
 							<!-- reenable once the video is made
