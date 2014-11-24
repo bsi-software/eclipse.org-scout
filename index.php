@@ -195,7 +195,7 @@
 
 									<strong>Tutorial</strong>
 									
-									<p>Do the “Hello World!”</p>
+									<p>Do the &quot;Hello World!&quot;</p>
 								</a>
 							</div><!-- /.col-md-4 -->
 						</div><!-- /.row -->
@@ -221,8 +221,8 @@
 								</div><!-- /.section-demo-content -->
 											
 								<div class="section-demo-actions">
-									<a target="_blank" href="http://widgets.eclipse-scout.cloudbees.net/web" class="btn btn-default demo-btn">Try the Live Demo</a>
-									<a target="_blank" href="http://widgets.eclipse-scout.cloudbees.net/mobile" class="btn btn-default demo-btn">Mobile Version</a>
+									<a target="_blank" href="https://scout.bsiag.com/demoapp/web" class="btn btn-default demo-btn">Try the Live Demo</a>
+									<a target="_blank" href="https://scout.bsiag.com/demoapp/mobile" class="btn btn-default demo-btn">Mobile Version</a>
 								</div><!-- /.section-demo-actions -->
 							</div><!-- /.col-md-6 -->
 						</div><!-- /.row -->
@@ -269,7 +269,7 @@
 							
 							<div class="col-sm-5 col-md-6">
 								<div class="section-tutorials-content">
-									<h2>The "Hello World!"</h2>
+									<h2>The &quot;Hello World!&quot;</h2>
 									
 									<h4>Your first Scout Application</h4>
 									
@@ -277,7 +277,7 @@
 								</div><!-- /.section-tutorials-content -->
 								
 								<div class="section-tutorials-actions">
-									<a href="scout_helloworld.html" class="btn btn-default btn-helloworld">Do the "Hello World!"</a>
+									<a href="scout_helloworld.html" class="btn btn-default btn-helloworld">Do the &quot;Hello World!&quot;</a>
 								</div><!-- /.section-tutorials-actions -->
 							</div><!-- /.col-md-5 -->
 						</div><!-- /.row -->
@@ -618,7 +618,7 @@
 											<div class="form-row">
 												<div class="form-controls">
 													<div class="checkbox custom-checkbox">
-														<input type="checkbox" name="newsletter" id="newsletter" />
+														<input type="checkbox" name="newsletter" id="newsletter" checked="YES" />
 								
 														<label for="newsletter" class="form-label">
 															<span class="custom-checkbox-fake"></span>
