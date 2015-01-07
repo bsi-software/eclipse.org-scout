@@ -408,7 +408,7 @@
 									<div class="feature-content">
 										<h4>Multi-Device Support</h4>
 										
-										<p>Scout client applications run imultaneously on the desktop, in the browser, and on mobile devices. </p>
+										<p>Scout client applications run simultaneously on the desktop, in the browser, and on mobile devices. </p>
 										
 										<p>Implemented against an abstract component model, Scout applications support all devices based on the same Java source code. </p>
 									</div><!-- /.feature-content -->
