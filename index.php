@@ -329,7 +329,7 @@
 								</div><!-- /.benefit-head -->
 
 								<div class="benefit-entry time-to-market">
-									<p>Scout is simple to learn, offers free ccess to many resources and increases developer productivity. And backed by commercial support, Scout can help your team to meet demanding deadlines. </p>
+									<p>Scout is simple to learn, offers free access to many resources and increases developer productivity. And backed by commercial support, Scout can help your team to meet demanding deadlines. </p>
 								</div><!-- /.benefit-entry -->
 						    </div>
 		
