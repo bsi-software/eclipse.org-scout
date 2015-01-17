@@ -343,7 +343,7 @@
 								</div><!-- /.benefit-head -->
 
 								<div class="benefit-entry time-to-market">
-									<p>Scout is simple to learn, offers free ccess to many resources and increases developer productivity. And backed by commercial support, Scout can help your team to meet demanding deadlines. </p>
+									<p>Scout is simple to learn, offers free access to many resources and increases developer productivity. And backed by commercial support, Scout can help your team to meet demanding deadlines. </p>
 								</div><!-- /.benefit-entry -->
 						    </div>
 		
@@ -390,7 +390,7 @@
 							</div><!-- /.benefit-entry -->
 							
 							<div class="benefit-entry time-to-market">
-								<p>Scout is simple to learn, offers free ccess to many resources and increases developer productivity. And backed by commercial support, Scout can help your team to meet demanding deadlines. </p>
+								<p>Scout is simple to learn, offers free access to many resources and increases developer productivity. And backed by commercial support, Scout can help your team to meet demanding deadlines. </p>
 							</div><!-- /.benefit-entry -->
 						
 							<div class="benefit-entry simple-to-learn">
@@ -422,7 +422,7 @@
 									<div class="feature-content">
 										<h4>Multi-Device Support</h4>
 										
-										<p>Scout client applications run imultaneously on the desktop, in the browser, and on mobile devices. </p>
+										<p>Scout client applications run simultaneously on the desktop, in the browser, and on mobile devices. </p>
 										
 										<p>Implemented against an abstract component model, Scout applications support all devices based on the same Java source code. </p>
 									</div><!-- /.feature-content -->
