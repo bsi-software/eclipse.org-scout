@@ -215,15 +215,29 @@
 								<div class="section-demo-content">
 									<h2>The Scout Demo</h2>
 									
-									<h4>A Client-only Application</h4>
+									<!-- <h4>A Client-only Application</h4> -->
 											
 									<p>Play with the Scout demo application and explore Scout forms, widgets and pages</p>
 								</div><!-- /.section-demo-content -->
 											
 								<div class="section-demo-actions">
-									<a target="_blank" href="https://scout.bsiag.com/demoapp/web" class="btn btn-default demo-btn">Try the Live Demo</a>
-									<a target="_blank" href="https://scout.bsiag.com/demoapp/mobile" class="btn btn-default demo-btn">Mobile Version</a>
+									<a target="_blank" href="https://scout.bsiag.com/demoapp/" class="btn btn-default demo-btn">Try the Live Demo</a>
+									<a target="_blank" href="https://scout.bsiag.com/demoapp/mobile" class="btn btn-default demo-btn demo-btn-mobile">Mobile Version</a>
 								</div><!-- /.section-demo-actions -->
+
+								<div class="section-demo-content">				
+									<p style="margin-top: 17px;">Then, browse the gallery for screenshots of various Scout applications.</p>
+								</div><!-- /.section-demo-content -->
+											
+								<div class="section-demo-actions">
+					<a class='btn-gallery btn btn-default demo-btn' href='gallery/bsicrm_screenshot_02.png' data-title="BSI CRM" data-description="A comprehensive CRM deployed at all customer interfaces. BSI CRM can be used both as client and mobile solution. Well-integrated and easy to use. Open technology guarantees efficiency, individuality and future security.">Gallery</a>
+					<a class='btn-gallery' style='visibility: hidden;' href='gallery/cisi_angebotsplanung_screenshot_01.png' data-title="CISI Angebotsplanung" data-description="An application used to manage the freight timetable of the Swiss National Railways (SBB)">image2</a>
+					<a class='btn-gallery' style='visibility: hidden;' href='gallery/connect_screenshot_01.png' data-title="Connect" data-description="An application to share medical files and to manage appointment planning.">image3</a>
+					<a class='btn-gallery' style='visibility: hidden;' href='gallery/indibox_screenshot_01.png' data-title="Indibox" data-description="An ERP-System for smaller businesses.">image4</a>
+					<a class='btn-gallery' style='visibility: hidden;' href='gallery/tcms_screenshot_01.png' data-title="TCMS" data-description="Disciplines have various attributes to make them configurable. The attribute “Formula” for instance is used to determine how the result (in points) is calculated based on the time resulting from the race." >image5</a>
+					<a class='btn-gallery' style='visibility: hidden;' href='gallery/wotan_taps_screenshot_01.png' data-title="Wotan Taps" data-description="An application for veterinary practices. It includes medical histories of animals and basic bookkeeping features." >image6</a>
+								</div><!-- /.section-demo-actions -->
+								
 							</div><!-- /.col-md-6 -->
 						</div><!-- /.row -->
 					</div><!-- /.container -->
@@ -614,7 +628,8 @@
 											<div class="form-row">
 												<textarea name="message" id="message" cols="30" rows="10" placeholder="Message" class="textarea form-control"></textarea>
 											</div><!-- /.form-row -->
-								
+											
+											<!--
 											<div class="form-row">
 												<div class="form-controls">
 													<div class="checkbox custom-checkbox">
@@ -622,12 +637,12 @@
 								
 														<label for="newsletter" class="form-label">
 															<span class="custom-checkbox-fake"></span>
-
 															I wish to receive the quarterly Scout NEWSLETTER
 														</label>
-													</div><!-- /.checkbox -->
-												</div><!-- /.form-controls -->
-											</div><!-- /.form-row -->
+													</div>
+												</div>
+											</div>
+											-->
 										</div><!-- /.form-body -->
 										
 										<div class="form-actions">

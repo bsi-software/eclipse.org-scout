@@ -82,12 +82,16 @@ ol { list-style-position: inside; }
 .navbar-default .navbar-nav  li a { color: #fff; }
 .navbar-default .navbar-nav  li a:hover { color: #faa635; }
 
+/* woud be nice to have dark transparent menu background when menu is displayed over header image, and white background otherwise
+.nav .dropdown:hover { background-color: rgba(96,96,96,0.8); display: block; border-top-left-radius: 5px; border-top-right-radius: 5px; }
+*/ 
 .nav .dropdown:hover { background-color: #fff; display: block; border-top-left-radius: 5px; border-top-right-radius: 5px; }
 .nav .dropdown:hover a { color: #0184a3; }
 .nav .dropdown:hover ul { color: #0184a3; display: block; border: 1px; }
 
-.nav .dropdown a:hover { color: #faa635; }
-.nav .dropdown ul a { color: #0184a3; background-color: #fff; }
+.nav .dropdown li a:hover { color: #faa635; }
+.nav .dropdown li a { color: #faa635; }
+.nav .dropdown ul a { color: #fff; background-color: #fff; }
 .nav .dropdown ul a:hover { color: #faa635; }
 
 .navbar.affix { position: fixed; background: #fff; }
@@ -408,6 +412,9 @@ ol { list-style-position: inside; }
 }
 
 @media (max-width: 767px) {
+
+    .demo-btn-mobile { visibility: hidden; }
+
 	.nav-mobile { display: block; }
 
 	.is-affixed .nav-mobile > ul { padding-top: 71px; }

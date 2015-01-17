@@ -149,6 +149,19 @@
 			width: "90%",
 			height: "90%"
 		});
+		
+		$(".btn-gallery").colorbox({
+			maxWidth: 800,
+			maxHeight: '90%',
+			width: "90%",
+			height: "90%",
+			rel: "gallery",
+			title: function() {
+				var a_name = $(this).attr('data-title');
+				var a_desc = $(this).attr('data-description');
+				return '<p style="font-size: 1.2em; font-weight: bold;" >' + a_name + '</p> ' + a_desc;
+			}
+		});
 
 		// Section Download - Buttons Functionality
 		if (navigator.appVersion.indexOf("Win")!=-1) {
