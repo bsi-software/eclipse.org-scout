@@ -160,6 +160,9 @@
 				var a_name = $(this).attr('data-title');
 				var a_desc = $(this).attr('data-description');
 				return '<p style="font-size: 1.2em; font-weight: bold;" >' + a_name + '</p> ' + a_desc;
+			},
+			onComplete: function(){ 
+				$('#cboxLoadedContent').zoom();
 			}
 		});
 

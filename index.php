@@ -15,6 +15,7 @@
 	<script src="js/jquery.fullscreener.min.js"></script>
 	<script src="js/jquery.colorbox-min.js"></script>
 	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/jquery.zoom.min.js"></script>
 	<script src="js/main.js"></script>
 </head>
 <body>
