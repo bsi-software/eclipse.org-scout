@@ -230,12 +230,12 @@
 								</div><!-- /.section-demo-content -->
 											
 								<div class="section-demo-actions">
-					<a class='btn-gallery btn btn-default demo-btn' href='gallery/bsicrm_screenshot_02.png' data-title="BSI CRM" data-description="A comprehensive CRM deployed at all customer interfaces. BSI CRM can be used both as client and mobile solution. Well-integrated and easy to use. Open technology guarantees efficiency, individuality and future security.">Gallery</a>
-					<a class='btn-gallery' style='visibility: hidden;' href='gallery/cisi_angebotsplanung_screenshot_01.png' data-title="CISI Angebotsplanung" data-description="An application used to manage the freight timetable of the Swiss National Railways (SBB)">image2</a>
-					<a class='btn-gallery' style='visibility: hidden;' href='gallery/connect_screenshot_01.png' data-title="Connect" data-description="An application to share medical files and to manage appointment planning.">image3</a>
-					<a class='btn-gallery' style='visibility: hidden;' href='gallery/indibox_screenshot_01.png' data-title="Indibox" data-description="An ERP-System for smaller businesses.">image4</a>
-					<a class='btn-gallery' style='visibility: hidden;' href='gallery/tcms_screenshot_01.png' data-title="TCMS" data-description="Disciplines have various attributes to make them configurable. The attribute “Formula” for instance is used to determine how the result (in points) is calculated based on the time resulting from the race." >image5</a>
-					<a class='btn-gallery' style='visibility: hidden;' href='gallery/wotan_taps_screenshot_01.png' data-title="Wotan Taps" data-description="An application for veterinary practices. It includes medical histories of animals and basic bookkeeping features." >image6</a>
+									<a class='btn-gallery btn btn-default demo-btn' href='gallery/bsicrm_screenshot_01.png' data-title="BSI CRM" data-description="A comprehensive CRM deployed at all customer interfaces. BSI CRM can be used both as client and mobile solution. Well-integrated and easy to use. Open technology guarantees efficiency, individuality and future security.">Gallery</a>
+									<a class='btn-gallery' style='visibility: hidden;' href='gallery/cisi_angebotsplanung_screenshot_01.png' data-title="CISI Angebotsplanung" data-description="An application used to manage the freight timetable of the Swiss National Railways (SBB)">Gallery 2</a>
+									<a class='btn-gallery' style='visibility: hidden;' href='gallery/connect_screenshot_01.png' data-title="Connect" data-description="An application to share medical files and to manage appointment planning.">Gallery 3</a>
+									<a class='btn-gallery' style='visibility: hidden;' href='gallery/indibox_screenshot_01.png' data-title="Indibox" data-description="An ERP-System for smaller businesses.">Gallery 4</a>
+									<a class='btn-gallery' style='visibility: hidden;' href='gallery/tcms_screenshot_01.png' data-title="TCMS" data-description="Disciplines have various attributes to make them configurable. The attribute “Formula” for instance is used to determine how the result (in points) is calculated based on the time resulting from the race." >Gallery 5</a>
+									<a class='btn-gallery' style='visibility: hidden;' href='gallery/wotan_taps_screenshot_01.png' data-title="Wotan Taps" data-description="An application for veterinary practices. It includes medical histories of animals and basic bookkeeping features." >Gallery 6</a>
 								</div><!-- /.section-demo-actions -->
 								
 							</div><!-- /.col-md-6 -->
