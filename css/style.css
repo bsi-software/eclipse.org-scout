@@ -413,6 +413,8 @@ ol { list-style-position: inside; }
 
 @media (max-width: 767px) {
 
+    #cboxTitle { visibility: hidden; }
+	
     .demo-btn-mobile { visibility: hidden; }
 
 	.nav-mobile { display: block; }
